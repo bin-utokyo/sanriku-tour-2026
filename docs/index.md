@@ -37,6 +37,15 @@ title: Home
     </div>
   </div>
 
+  <div class="route-map">
+    <iframe
+      title="Fukushima Sanriku Tour 2026 route map"
+      src="https://www.google.com/maps/d/u/0/embed?mid=1fJw-MlFsrk_4rYqP5tyb6mEjQJtjAM8&amp;ehbc=2E312F"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen></iframe>
+  </div>
+
   <div class="route-grid">
     {% for day in site.data.itinerary %}
     <article class="route-day">
