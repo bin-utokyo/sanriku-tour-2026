@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 <section class="hero" aria-labelledby="hero-title">
-  <img class="hero__image" src="{{ '/assets/images/materials/kesennuma.jpg' | relative_url | escape }}" alt="" aria-hidden="true" fetchpriority="high">
+  <img class="hero__image" src="{{ '/assets/images/materials/kesennuma.jpg' | relative_url | escape }}" alt="Kesennuma waterfront field photo from the Fukushima Sanriku Tour 2026" fetchpriority="high">
   <div class="hero__copy">
     <p class="eyebrow">Fieldwork Archive / April 18-19, 2026</p>
     <h1 id="hero-title">Fukushima Sanriku Tour 2026</h1>
-    <p class="hero__lead">As part of our laboratory's learning activities, members of the Behavior in Networks Studies Unit (BinN) toured the Fukushima and Sanriku regions, which were affected by the Great East Japan Earthquake. Together, we learned about the severity of the disaster and the current state of recovery. We are deeply grateful to everyone in each community we visited for their generous support.</p>
+    <p class="hero__lead">As part of our laboratory's learning activities, members of the Behavior in Networks Studies Unit (BinN) visited Fukushima Hamadori and the Sanriku coast to study recovery from the 2011 Great East Japan Earthquake, tsunami, and nuclear disaster. Together, we learned about coastal reconstruction, disaster risk reduction, local mobility, energy resilience, and the current state of community recovery. We are deeply grateful to everyone in each community we visited for their generous support.</p>
     <div class="hero__actions">
       <a class="text-link" href="#notes">View field notes</a>
       <a class="text-link text-link--secondary" href="#route">See the route</a>

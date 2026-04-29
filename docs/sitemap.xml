@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ '/' | absolute_url | xml_escape }}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% for item in site.data.spots %}
+    {% for subpage in item.subpages %}
+      {% assign note_page = site.pages | where: "permalink", subpage.url | first %}
+      {% if note_page %}
+        {% assign note_content = note_page.content | strip_html | normalize_whitespace | strip %}
+        {% unless subpage.url contains '-pre/' or note_content == 'WIP' or note_content contains 'このページは執筆用の雛形です' %}
+  <url>
+    <loc>{{ subpage.url | absolute_url | xml_escape }}</loc>
+    {% if note_page.last_updated %}
+    <lastmod>{{ note_page.last_updated | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</urlset>

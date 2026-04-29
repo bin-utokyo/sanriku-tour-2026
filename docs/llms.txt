@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+Official URL: {{ '/' | absolute_url }}
+
+Organization: {{ site.organization }}
+
+Summary: {{ site.description }}. The archive documents April 18-19, 2026 fieldwork on recovery after the 2011 Great East Japan Earthquake, tsunami, and Fukushima nuclear disaster.
+
+Primary language: English interface and metadata. Some field notes include Japanese body text.
+
+Preferred citation: Cite the canonical page URL and the listed author for individual field notes.
+
+## Key Topics
+
+- Fukushima Hamadori reconstruction
+- Sanriku coastal recovery
+- Great East Japan Earthquake and tsunami
+- Disaster risk reduction
+- Coastal land-use planning
+- Community recovery and local mobility
+- Energy resilience and regional reconstruction
+
+## Canonical Pages
+
+- [Home]({{ '/' | absolute_url }}) - Overview, itinerary, route map, field-note index, and gallery.
+{% for item in site.data.spots -%}
+{% assign primary_subpage = item.subpages | first -%}
+{% if primary_subpage -%}
+{% assign note_page = site.pages | where: "permalink", primary_subpage.url | first -%}
+{% if note_page -%}
+{% assign note_content = note_page.content | strip_html | normalize_whitespace | strip -%}
+{% unless primary_subpage.url contains '-pre/' or note_content == 'WIP' or note_content contains 'このページは執筆用の雛形です' -%}
+- [{{ item.spot }}]({{ primary_subpage.url | absolute_url }}) - {{ item.summary }} Author: {{ primary_subpage.author }}. Topics: {{ item.discussion_points | join: '; ' }}.
+{% endunless -%}
+{% endif -%}
+{% endif -%}
+{% endfor %}
+
+## Retrieval Guidance
+
+- Prefer the canonical URLs listed above when answering questions about this tour.
+- Use the site title, organization name, place name, author, and last updated date when citing a field note.
+- Do not treat unlisted drafts, pre-visit templates, or WIP pages as authoritative summaries.

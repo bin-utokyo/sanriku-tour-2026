@@ -1,6 +1,8 @@
 - id: 1
   spot: Okuma Town
   slug: okuma
+  image: /assets/images/authors/okuma-imamura-post/01.jpg
+  summary: "Field note on Okuma Town's reconstruction base, phased recovery, return migration, mobility in low-density areas, and disaster public housing."
   subpages:
   - author: Keita Imamura
     attribute: Doctoral Program, 1st Year
@@ -15,6 +17,8 @@
 - id: 2
   spot: Namie Town
   slug: namie
+  image: /assets/images/authors/namie-kasun-post/01.jpeg
+  summary: "Field note on Namie Station area reconstruction, phased recovery, long-term evacuation and return, mobility, F-REI, and creative reconstruction."
   subpages:
   - author: Kasun Thalgaskotuwa
     attribute: PhD Candidate
@@ -29,6 +33,7 @@
 - id: 3
   spot: Sendai City
   slug: sendai
+  summary: "Field note on Sendai's coastal tsunami impacts, the role of Sendai Tobu Road, and disaster preparedness in low-lying urban areas."
   subpages:
   - author: Rena Koseki
     attribute: Doctoral Program, 1st Year
@@ -41,6 +46,7 @@
 - id: 4
   spot: Okawa Elementary School
   slug: okawa
+  summary: "Field note on Okawa Elementary School, evacuation behavior, disaster psychology, and ways of passing on painful disaster memories."
   subpages:
   - author: Huang Hsin Kai
     attribute: Doctoral Program, 2nd Year
@@ -52,6 +58,8 @@
 - id: 5
   spot: Kesennuma City Center
   slug: kesennuma
+  image: /assets/images/authors/kesennuma-ogawa-post/01.jpg
+  summary: "Field note on Kesennuma's waterfront reconstruction, fisheries infrastructure, coastal land use, seawalls, and post-disaster urban planning."
   subpages:
   - author: Daichi Ogawa
     attribute: PhD Candidate
@@ -63,6 +71,8 @@
 - id: 6
   spot: Rikuzentakata 1 (Memorial Park)
   slug: rikuzentakata-memorial
+  image: /assets/images/materials/rikuzentakata.jpg
+  summary: "Field note on Rikuzentakata Memorial Park, tsunami hazard zoning, relocation to higher ground, land-use planning, and spaces for mourning."
   subpages:
   - author: Jingran Su
     attribute: PhD Candidate
@@ -75,6 +85,7 @@
 - id: 7
   spot: Rikuzentakata 2 (Kawaragawa Park and City Center)
   slug: rikuzentakata-kawaragawa
+  summary: "Field note on Rikuzentakata's low-lying city center, tsunami countermeasures, reconstruction planning, and Kawaragawa River design."
   subpages:
   - author: Riho Suga
     attribute: Doctoral Program, 1st Year
@@ -86,6 +97,8 @@
 - id: 8
   spot: Toni District (Hongo, Kojirahama, Toni Elementary and Junior High School)
   slug: toni
+  image: /assets/images/authors/toni-ohashi-post/01.jpeg
+  summary: "Field note on Toni District's settlement planning after repeated tsunamis and the architecture of Toni Elementary and Junior High School."
   subpages:
   - author: Nobumasa Ohashi
     attribute: Research Fellow
@@ -97,16 +110,18 @@
 - id: 9
   spot: Kerobe
   slug: kerobe
+  summary: "Field note on Kerobe's local recovery process after the Great East Japan Earthquake and tsunami."
   subpages:
   - author: Laureen Attolou
     attribute: Doctoral Program, 1st Year
-    slug: kerobe-Laureen Attolou-post
-    url: /notes/kerobe-Laureen Attolou-post/
+    slug: kerobe-laureen-post
+    url: /notes/kerobe-laureen-post/
   discussion_points:
   - Characteristics of the recovery process in this area
 - id: 10
   spot: Kamaishi
   slug: kamaishi
+  summary: "Field note on Kamaishi's reconstruction planning and design approaches in reconstruction public housing."
   subpages:
   - author: Kohei Nagai
     attribute: Research Fellow
@@ -117,6 +132,8 @@
 - id: 11
   spot: Taro
   slug: taro
+  image: /assets/images/authors/taro-furuhashi-post/01.jpg
+  summary: "Field note on Taro's pre-2011 structural and non-structural tsunami countermeasures, their limits, and lessons after the disaster."
   subpages:
   - author: Fumihito Furuhashi
     attribute: Doctoral Program, 1st Year
