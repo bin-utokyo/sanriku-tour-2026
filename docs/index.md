@@ -7,7 +7,7 @@ title: Home
   <div class="hero__copy">
     <p class="eyebrow">Fieldwork Archive / April 18-19, 2026</p>
     <h1 id="hero-title">Fukushima Sanriku Tour 2026</h1>
-    <p class="hero__lead">From Fukushima Hamadori to the Sanriku coast, this two-day record follows places where recovery is visible in infrastructure, memory, and everyday work.</p>
+    <p class="hero__lead">As part of our laboratory's learning activities, members of the Behavior in Networks Studies Unit (BinN) toured the Fukushima and Sanriku regions, which were affected by the Great East Japan Earthquake. Together, we learned about the severity of the disaster and the current state of recovery. We are deeply grateful to everyone in each community we visited for their generous support.</p>
     <div class="hero__actions">
       <a class="text-link" href="#notes">View field notes</a>
       <a class="text-link text-link--secondary" href="#route">See the route</a>
@@ -27,40 +27,6 @@ title: Home
       <dd>Recovery, disaster preparedness, and local life</dd>
     </div>
   </dl>
-</section>
-
-<section id="gallery" class="section section--wide" aria-labelledby="gallery-title">
-  <div class="section-header">
-    <div>
-      <p class="eyebrow">Gallery</p>
-      <h2 id="gallery-title">Scenes from the Field</h2>
-    </div>
-  </div>
-
-  <div class="gallery-shell" data-gallery>
-    {% assign gallery_count = 0 %}
-    {% for file in site.static_files %}
-      {% if file.path contains '/assets/images/materials/' %}
-        {% assign image_ext = file.extname | downcase %}
-        {% if image_ext == '.jpg' or image_ext == '.jpeg' %}
-        <figure class="gallery-slide{% if gallery_count == 0 %} is-active{% endif %}" data-gallery-slide>
-          <img src="{{ file.path | relative_url | escape }}" alt="Field photo from the Fukushima Sanriku Tour" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
-        </figure>
-        {% assign gallery_count = gallery_count | plus: 1 %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    {% if gallery_count == 0 %}
-    <p class="empty-gallery">Add JPEG images to <code>docs/assets/images/materials/</code> to display them here.</p>
-    {% endif %}
-
-    <div class="gallery-controls"{% if gallery_count < 2 %} hidden{% endif %}>
-      <button type="button" data-gallery-prev aria-label="Previous photo">‹</button>
-      <span data-gallery-index>1 / {{ gallery_count | escape }}</span>
-      <button type="button" data-gallery-next aria-label="Next photo">›</button>
-    </div>
-  </div>
 </section>
 
 <section id="route" class="section" aria-labelledby="route-title">
@@ -135,6 +101,40 @@ title: Home
     </article>
     {% endif %}
     {% endfor %}
+  </div>
+</section>
+
+<section id="gallery" class="section section--wide" aria-labelledby="gallery-title">
+  <div class="section-header">
+    <div>
+      <p class="eyebrow">Gallery</p>
+      <h2 id="gallery-title">Scenes from the Field</h2>
+    </div>
+  </div>
+
+  <div class="gallery-shell" data-gallery>
+    {% assign gallery_count = 0 %}
+    {% for file in site.static_files %}
+      {% if file.path contains '/assets/images/materials/' %}
+        {% assign image_ext = file.extname | downcase %}
+        {% if image_ext == '.jpg' or image_ext == '.jpeg' %}
+        <figure class="gallery-slide{% if gallery_count == 0 %} is-active{% endif %}" data-gallery-slide>
+          <img src="{{ file.path | relative_url | escape }}" alt="Field photo from the Fukushima Sanriku Tour" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
+        </figure>
+        {% assign gallery_count = gallery_count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if gallery_count == 0 %}
+    <p class="empty-gallery">Add JPEG images to <code>docs/assets/images/materials/</code> to display them here.</p>
+    {% endif %}
+
+    <div class="gallery-controls"{% if gallery_count < 2 %} hidden{% endif %}>
+      <button type="button" data-gallery-prev aria-label="Previous photo">‹</button>
+      <span data-gallery-index>1 / {{ gallery_count | escape }}</span>
+      <button type="button" data-gallery-next aria-label="Next photo">›</button>
+    </div>
   </div>
 </section>
 
