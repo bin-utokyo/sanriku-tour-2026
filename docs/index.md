@@ -40,7 +40,7 @@ title: Home
         {% assign image_ext = file.extname | downcase %}
         {% if image_ext == '.jpg' or image_ext == '.jpeg' %}
         <figure class="gallery-slide{% if gallery_count == 0 %} is-active{% endif %}" data-gallery-slide>
-          <img src="{{ file.path | relative_url }}" alt="Field photo from the Fukushima Sanriku Tour" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
+          <img src="{{ file.path | relative_url | escape }}" alt="Field photo from the Fukushima Sanriku Tour" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
         </figure>
         {% assign gallery_count = gallery_count | plus: 1 %}
         {% endif %}
@@ -53,7 +53,7 @@ title: Home
 
     <div class="gallery-controls"{% if gallery_count < 2 %} hidden{% endif %}>
       <button type="button" data-gallery-prev aria-label="Previous photo">‹</button>
-      <span data-gallery-index>1 / {{ gallery_count }}</span>
+      <span data-gallery-index>1 / {{ gallery_count | escape }}</span>
       <button type="button" data-gallery-next aria-label="Next photo">›</button>
     </div>
   </div>
@@ -70,14 +70,14 @@ title: Home
   <div class="route-grid">
     {% for day in site.data.itinerary %}
     <article class="route-day">
-      <h3>{{ day.day }}</h3>
+      <h3>{{ day.day | escape }}</h3>
       <ol class="timeline">
         {% for stop in day.stops %}
         <li>
-          <time>{{ stop.time }}</time>
-          <span>{{ stop.place }}</span>
+          <time>{{ stop.time | escape }}</time>
+          <span>{{ stop.place | escape }}</span>
           {% if stop.note %}
-          <small>{{ stop.note }}</small>
+          <small>{{ stop.note | escape }}</small>
           {% endif %}
         </li>
         {% endfor %}
@@ -97,22 +97,22 @@ title: Home
 
   <div class="visit-list">
     {% for item in site.data.spots %}
-    <article class="visit-card" id="{{ item.slug }}">
+    <article class="visit-card" id="{{ item.slug | slugify | escape }}">
       <div class="visit-card__main">
-        <span class="visit-number">{{ item.id }}</span>
+        <span class="visit-number">{{ item.id | escape }}</span>
         <div>
-          <h3>{{ item.spot }}</h3>
+          <h3>{{ item.spot | escape }}</h3>
           <ul class="point-list">
             {% for point in item.discussion_points %}
-            <li>{{ point }}</li>
+            <li>{{ point | escape }}</li>
             {% endfor %}
           </ul>
         </div>
       </div>
-      <div class="visit-card__links" aria-label="Field notes for {{ item.spot }}">
+      <div class="visit-card__links" aria-label="Field notes for {{ item.spot | escape }}">
         {% for subpage in item.subpages %}
-        <a href="{{ subpage.url | relative_url }}" aria-label="{{ item.spot }} field note by {{ subpage.author }}">
-          <strong>{{ subpage.author }}</strong>
+        <a href="{{ subpage.url | relative_url | escape }}" aria-label="{{ item.spot | escape }} field note by {{ subpage.author | escape }}">
+          <strong>{{ subpage.author | escape }}</strong>
         </a>
         {% endfor %}
       </div>
@@ -121,45 +121,4 @@ title: Home
   </div>
 </section>
 
-<script>
-  (() => {
-    const gallery = document.querySelector("[data-gallery]");
-    if (!gallery) return;
-
-    const slides = Array.from(gallery.querySelectorAll("[data-gallery-slide]"));
-    const index = gallery.querySelector("[data-gallery-index]");
-    const prev = gallery.querySelector("[data-gallery-prev]");
-    const next = gallery.querySelector("[data-gallery-next]");
-    if (slides.length === 0) return;
-
-    let active = 0;
-    let timer = null;
-
-    const show = (target) => {
-      slides[active].classList.remove("is-active");
-      active = (target + slides.length) % slides.length;
-      slides[active].classList.add("is-active");
-      if (index) index.textContent = `${active + 1} / ${slides.length}`;
-    };
-
-    const restart = () => {
-      if (timer) window.clearInterval(timer);
-      if (slides.length > 1) {
-        timer = window.setInterval(() => show(active + 1), 4800);
-      }
-    };
-
-    if (prev) prev.addEventListener("click", () => {
-      show(active - 1);
-      restart();
-    });
-
-    if (next) next.addEventListener("click", () => {
-      show(active + 1);
-      restart();
-    });
-
-    show(0);
-    restart();
-  })();
-</script>
+<script src="{{ '/assets/js/gallery.js' | relative_url | escape }}" defer></script>

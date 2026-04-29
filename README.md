@@ -57,7 +57,10 @@ Edit the Markdown files in `docs/authors/`. Public URLs are set to `/notes/.../`
 ## Pre-publication Checklist
 
 - Check for personal information, identifiable faces, vehicle license plates, and unpublished materials.
+- Strip image metadata before publishing, especially GPS, device, author, and editing-history metadata.
 - Confirm citation conditions for images, figures, and text.
 - Clearly list references and sources.
 - Do not publish non-public information heard from local stakeholders as-is.
 - Confirm that links from the top page to each destination page open correctly.
+- Remember that a public GitHub repository exposes source files as well as the generated site. Do not commit drafts, raw interview notes, credentials, private source files, or other non-public materials.
+- Run a final secret scan before publishing, for example `rg -n "(password|token|secret|api[_-]?key|private[_-]?key|BEGIN .*PRIVATE KEY)" . -S`.

@@ -8,6 +8,11 @@ kramdown:
   input: GFM
 permalink: pretty
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - assets/images/logo.ai
+
 # For a project site such as https://username.github.io/repository-name/,
 # set baseurl to "/repository-name". Leave it blank for a User/Organization site.
 baseurl: ""

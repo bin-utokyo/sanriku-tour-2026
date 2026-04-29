@@ -18,8 +18,8 @@ layout: default
   {% capture destination_label %}{% if page.spot_id %}{{ page.spot_id }} {% endif %}{{ spot_name }}{% endcapture %}
 
   <header class="article-header">
-    <p class="eyebrow">{{ destination_label }}</p>
-    <h1>{{ spot_name }}</h1>
+    <p class="eyebrow">{{ destination_label | strip | escape }}</p>
+    <h1>{{ spot_name | escape }}</h1>
   </header>
 
   <div class="article-shell">
@@ -27,16 +27,16 @@ layout: default
       <dl class="article-meta">
         <div>
           <dt>Destination</dt>
-          <dd>{{ destination_label }}</dd>
+          <dd>{{ destination_label | strip | escape }}</dd>
         </div>
         <div>
           <dt>Author</dt>
-          <dd>{{ author_name }}</dd>
+          <dd>{{ author_name | escape }}</dd>
         </div>
         {% if page.last_updated %}
         <div>
           <dt>Last Updated</dt>
-          <dd>{{ page.last_updated }}</dd>
+          <dd>{{ page.last_updated | escape }}</dd>
         </div>
         {% endif %}
       </dl>
@@ -46,7 +46,7 @@ layout: default
         <h2>Focus Points</h2>
         <ul class="point-list">
           {% for point in focus_points %}
-          <li>{{ point }}</li>
+          <li>{{ point | escape }}</li>
           {% endfor %}
         </ul>
       </section>
