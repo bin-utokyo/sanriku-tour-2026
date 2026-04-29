@@ -1,9 +1,9 @@
 ---
 layout: author
-title: 唐丹町（本郷，小白浜，唐丹小中学校）｜大橋
+title: 唐丹町（本郷，小白浜，唐丹小中学校）｜Nobumasa Ohashi
 spot_id: 8
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
-author: 大橋
+author: Nobumasa Ohashi
 permalink: /notes/toni-ohashi-post/
 last_updated: '2026-04-29'
 discussion_points:

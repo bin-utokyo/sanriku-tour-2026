@@ -1,9 +1,9 @@
 ---
 layout: author
-title: 釜石｜永井
+title: 釜石｜Kohei Nagai
 spot_id: 10
 spot: 釜石
-author: 永井
+author: Kohei Nagai
 permalink: /notes/kamaishi-nagai-post/
 last_updated: '2026-04-29'
 discussion_points:

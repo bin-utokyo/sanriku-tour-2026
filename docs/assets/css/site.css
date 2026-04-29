@@ -515,6 +515,11 @@ select {
   color: var(--accent-2);
 }
 
+.visit-card__links a:hover .visit-card__meta-label,
+.visit-card__links a:hover strong {
+  color: var(--accent-2);
+}
+
 .visit-card__meta-row {
   color: var(--muted);
   font-size: 0.92rem;
