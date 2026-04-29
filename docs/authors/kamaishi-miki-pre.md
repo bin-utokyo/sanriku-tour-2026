@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 釜石｜訪問前の視点
+title: 釜石｜三木
 spot_id: ⑩
 spot: 釜石
 author: 三木
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/kamaishi-miki-pre/
 last_updated: '2026-04-29'
 discussion_points:

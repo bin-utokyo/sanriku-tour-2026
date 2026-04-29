@@ -13,7 +13,7 @@ docs/
   _data/spots.yml          # Destination link data
   _layouts/default.html    # Shared layout
   _layouts/author.html     # Destination page layout
-  assets/css/style.css     # Design
+  assets/css/site.css      # Design
   assets/images/logo.ai    # Original logo
   assets/images/logo.png   # Web logo
   assets/images/materials/ # Gallery images for the top page
@@ -51,7 +51,7 @@ Edit the Markdown files in `docs/authors/`. Public URLs are set to `/notes/.../`
 
 1. Copy `docs/_templates/author.md`.
 2. Rename the file using an alphanumeric slug.
-3. Edit `title`, `spot`, `author`, `phase_label`, and `permalink` in the YAML front matter.
+3. Edit `title`, `spot`, `author`, and `permalink` in the YAML front matter.
 4. To show the page on the top page, register it in `docs/_data/spots.yml`.
 
 ## Pre-publication Checklist

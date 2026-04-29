@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 気仙沼市街｜訪問後の記録
+title: 気仙沼市街｜Daichi Ogawa
 spot_id: ⑤
 spot: 気仙沼市街
 author: Daichi Ogawa
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/kesennuma-ogawa-post/
 last_updated: '2026-04-29'
 discussion_points:

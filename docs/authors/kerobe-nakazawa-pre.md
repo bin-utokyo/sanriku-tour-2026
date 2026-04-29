@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 花露辺｜訪問前の視点
+title: 花露辺｜中澤
 spot_id: ⑨
 spot: 花露辺
 author: 中澤
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/kerobe-nakazawa-pre/
 last_updated: '2026-04-29'
 discussion_points:

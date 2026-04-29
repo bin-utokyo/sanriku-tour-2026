@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 釜石｜訪問後の記録
+title: 釜石｜永井
 spot_id: ⑩
 spot: 釜石
 author: 永井
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/kamaishi-nagai-post/
 last_updated: '2026-04-29'
 discussion_points:

@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 大熊町｜訪問後の記録
+title: 大熊町｜Keita Imamura
 spot_id: ①
 spot: 大熊町
 author: Keita Imamura
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/okuma-imamura-post/
 last_updated: '2026-04-29'
 discussion_points:

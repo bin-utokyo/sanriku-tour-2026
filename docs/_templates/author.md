@@ -1,11 +1,9 @@
 ---
 layout: author
-title: "Destination Name | Pre-visit Perspective or Post-visit Record"
+title: "Destination Name | Author Name"
 spot_id: ①
 spot: "Destination Name"
-author: "Author Name"
-phase: pre
-phase_label: "Pre-visit Perspective"
+author: "Author Full Name"
 permalink: /notes/example-slug/
 discussion_points:
   - "Enter a focus point here"
@@ -21,7 +19,7 @@ Organize the site's topography, damage, recovery plans, institutions, facilities
 
 ## 3. Observations and Fieldwork
 
-For a pre-visit perspective, focus on what should be checked in the field. For a post-visit record, focus on what was observed on site.
+Describe what was observed on site and connect those observations to the destination's recovery context.
 
 ## 4. Discussion
 

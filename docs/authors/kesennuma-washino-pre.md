@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 気仙沼市街｜訪問前の視点
+title: 気仙沼市街｜鷲野
 spot_id: ⑤
 spot: 気仙沼市街
 author: 鷲野
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/kesennuma-washino-pre/
 last_updated: '2026-04-29'
 discussion_points:

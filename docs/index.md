@@ -110,14 +110,11 @@ title: Home
         </div>
       </div>
       <div class="visit-card__links" aria-label="Field notes for {{ item.spot }}">
-        <a href="{{ item.pre.url | relative_url }}">
-          <span>Pre-visit Perspective</span>
-          <strong>{{ item.pre.author }}</strong>
+        {% for subpage in item.subpages %}
+        <a href="{{ subpage.url | relative_url }}" aria-label="{{ item.spot }} field note by {{ subpage.author }}">
+          <strong>{{ subpage.author }}</strong>
         </a>
-        <a href="{{ item.post.url | relative_url }}">
-          <span>Post-visit Record</span>
-          <strong>{{ item.post.author }}</strong>
-        </a>
+        {% endfor %}
       </div>
     </article>
     {% endfor %}

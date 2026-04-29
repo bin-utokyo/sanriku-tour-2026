@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 浪江町｜訪問後の記録
+title: 浪江町｜Kasun Thalgaskotuwa
 spot_id: ②
 spot: 浪江町
 author: Kasun Thalgaskotuwa
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/namie-kasun-post/
 last_updated: '2026-04-29'
 discussion_points:

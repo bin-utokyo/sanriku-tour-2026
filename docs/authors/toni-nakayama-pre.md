@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 唐丹町（本郷，小白浜，唐丹小中学校）｜訪問前の視点
+title: 唐丹町（本郷，小白浜，唐丹小中学校）｜名嘉山
 spot_id: ⑧
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: 名嘉山
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/toni-nakayama-pre/
 last_updated: '2026-04-29'
 discussion_points:

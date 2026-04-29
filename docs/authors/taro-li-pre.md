@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 田老｜訪問前の視点
+title: 田老｜李
 spot_id: ⑪
 spot: 田老
 author: 李
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/taro-li-pre/
 last_updated: '2026-04-29'
 discussion_points:

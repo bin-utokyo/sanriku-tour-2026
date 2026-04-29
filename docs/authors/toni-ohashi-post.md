@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 唐丹町（唐丹小中学校）｜訪問後の記録
+title: 唐丹町（本郷，小白浜，唐丹小中学校）｜大橋
 spot_id: ⑧
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: 大橋
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/toni-ohashi-post/
 last_updated: '2026-04-29'
 discussion_points:

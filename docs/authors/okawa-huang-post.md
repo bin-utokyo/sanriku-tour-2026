@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 大川小｜訪問後の記録
+title: 大川小｜Huang Hsin Kai
 spot_id: ④
 spot: 大川小
 author: Huang Hsin Kai
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/okawa-huang-post/
 last_updated: '2026-04-29'
 discussion_points:

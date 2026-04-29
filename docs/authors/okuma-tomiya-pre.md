@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 大熊町｜訪問前の視点
+title: 大熊町｜冨矢
 spot_id: ①
 spot: 大熊町
 author: 冨矢
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/okuma-tomiya-pre/
 last_updated: '2026-04-29'
 discussion_points:

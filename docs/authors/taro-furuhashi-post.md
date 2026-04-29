@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 田老｜訪問後の記録
+title: 田老｜Fumihito Furuhashi
 spot_id: ⑪
 spot: 田老
 author: Fumihito Furuhashi
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/taro-furuhashi-post/
 last_updated: '2026-04-29'
 discussion_points:

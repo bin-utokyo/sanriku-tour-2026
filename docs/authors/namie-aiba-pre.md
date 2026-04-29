@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 浪江町｜訪問前の視点
+title: 浪江町｜饗場
 spot_id: ②
 spot: 浪江町
 author: 饗場
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/namie-aiba-pre/
 last_updated: '2026-04-29'
 discussion_points:

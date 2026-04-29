@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 陸前高田2（川原川公園，市街地）｜訪問前の視点
+title: 陸前高田2（川原川公園，市街地）｜小西
 spot_id: ⑦
 spot: 陸前高田2（川原川公園，市街地）
 author: 小西
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/rikuzentakata-kawaragawa-konishi-pre/
 last_updated: '2026-04-29'
 discussion_points:

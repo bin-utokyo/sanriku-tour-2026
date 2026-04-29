@@ -2,34 +2,24 @@
 layout: default
 ---
 <article class="article">
-  {% assign note_label = 'Field Note' %}
   {% assign spot_name = page.spot %}
   {% assign author_name = page.author %}
   {% assign focus_points = page.discussion_points %}
 
-  {% if page.phase == 'pre' %}
-    {% assign note_label = 'Pre-visit Perspective' %}
-  {% elsif page.phase == 'post' %}
-    {% assign note_label = 'Post-visit Record' %}
-  {% endif %}
-
   {% for item in site.data.spots %}
-    {% if item.pre.url == page.permalink %}
-      {% assign spot_name = item.spot %}
-      {% assign author_name = item.pre.author %}
-      {% assign focus_points = item.discussion_points %}
-      {% assign note_label = 'Pre-visit Perspective' %}
-    {% elsif item.post.url == page.permalink %}
-      {% assign spot_name = item.spot %}
-      {% assign author_name = item.post.author %}
-      {% assign focus_points = item.discussion_points %}
-      {% assign note_label = 'Post-visit Record' %}
-    {% endif %}
+    {% for subpage in item.subpages %}
+      {% if subpage.url == page.permalink %}
+        {% assign spot_name = item.spot %}
+        {% assign author_name = subpage.author %}
+        {% assign focus_points = item.discussion_points %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
+  {% capture destination_label %}{% if page.spot_id %}{{ page.spot_id }} {% endif %}{{ spot_name }}{% endcapture %}
 
   <header class="article-header">
-    <p class="eyebrow">{{ page.spot_id }} {{ spot_name }} / {{ note_label }}</p>
-    <h1>{{ spot_name }} | {{ note_label }}</h1>
+    <p class="eyebrow">{{ destination_label }}</p>
+    <h1>{{ spot_name }}</h1>
   </header>
 
   <div class="article-shell">
@@ -37,11 +27,7 @@ layout: default
       <dl class="article-meta">
         <div>
           <dt>Destination</dt>
-          <dd>{{ page.spot_id }} {{ spot_name }}</dd>
-        </div>
-        <div>
-          <dt>Note</dt>
-          <dd>{{ note_label }}</dd>
+          <dd>{{ destination_label }}</dd>
         </div>
         <div>
           <dt>Author</dt>

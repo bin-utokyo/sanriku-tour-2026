@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 仙台市｜訪問後の記録
+title: 仙台市｜Rena Koseki
 spot_id: ③
 spot: 仙台市
 author: Rena Koseki
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/sendai-koseki-post/
 last_updated: '2026-04-29'
 discussion_points:

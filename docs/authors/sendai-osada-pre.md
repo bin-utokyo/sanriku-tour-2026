@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 仙台市｜訪問前の視点
+title: 仙台市｜長田
 spot_id: ③
 spot: 仙台市
 author: 長田
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/sendai-osada-pre/
 last_updated: '2026-04-29'
 discussion_points:

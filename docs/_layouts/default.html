@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% assign document_title = page.title %}
     {% if page.layout == 'author' %}
-      {% assign document_note_label = 'Field Note' %}
-      {% if page.phase == 'pre' %}
-        {% assign document_note_label = 'Pre-visit Perspective' %}
-      {% elsif page.phase == 'post' %}
-        {% assign document_note_label = 'Post-visit Record' %}
-      {% endif %}
       {% assign document_spot = page.spot %}
+      {% assign document_author = page.author %}
       {% for item in site.data.spots %}
-        {% if item.pre.url == page.permalink or item.post.url == page.permalink %}
-          {% assign document_spot = item.spot %}
-        {% endif %}
+        {% for subpage in item.subpages %}
+          {% if subpage.url == page.permalink %}
+            {% assign document_spot = item.spot %}
+            {% assign document_author = subpage.author %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-      {% assign document_title = document_spot | append: ' | ' | append: document_note_label %}
+      {% assign document_title = document_spot %}
+      {% if document_author %}
+        {% assign document_title = document_title | append: ' | ' | append: document_author %}
+      {% endif %}
     {% endif %}
     <title>{% if document_title %}{{ document_title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">

@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 陸前高田2（川原川公園，市街地）｜訪問後の記録
+title: 陸前高田2（川原川公園，市街地）｜須賀
 spot_id: ⑦
 spot: 陸前高田2（川原川公園，市街地）
 author: 須賀
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/rikuzentakata-kawaragawa-suga-post/
 last_updated: '2026-04-29'
 discussion_points:

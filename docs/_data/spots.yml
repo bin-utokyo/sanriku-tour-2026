@@ -1,12 +1,8 @@
 - id: ①
   spot: Okuma Town
   slug: okuma
-  pre:
-    author: Tomiya
-    slug: okuma-tomiya-pre
-    url: /notes/okuma-tomiya-pre/
-  post:
-    author: Imamura
+  subpages:
+  - author: Keita Imamura
     slug: okuma-imamura-post
     url: /notes/okuma-imamura-post/
   discussion_points:
@@ -18,12 +14,8 @@
 - id: ②
   spot: Namie Town
   slug: namie
-  pre:
-    author: Aiba
-    slug: namie-aiba-pre
-    url: /notes/namie-aiba-pre/
-  post:
-    author: Kasun
+  subpages:
+  - author: Kasun Thalgaskotuwa
     slug: namie-kasun-post
     url: /notes/namie-kasun-post/
   discussion_points:
@@ -35,12 +27,8 @@
 - id: ③
   spot: Sendai City
   slug: sendai
-  pre:
-    author: Osada
-    slug: sendai-osada-pre
-    url: /notes/sendai-osada-pre/
-  post:
-    author: Koseki
+  subpages:
+  - author: Rena Koseki
     slug: sendai-koseki-post
     url: /notes/sendai-koseki-post/
   discussion_points:
@@ -50,12 +38,8 @@
 - id: ④
   spot: Okawa Elementary School
   slug: okawa
-  pre:
-    author: Ishikawa
-    slug: okawa-ishikawa-pre
-    url: /notes/okawa-ishikawa-pre/
-  post:
-    author: Huang
+  subpages:
+  - author: Huang Hsin Kai
     slug: okawa-huang-post
     url: /notes/okawa-huang-post/
   discussion_points:
@@ -64,12 +48,8 @@
 - id: ⑤
   spot: Kesennuma City Center
   slug: kesennuma
-  pre:
-    author: Washino
-    slug: kesennuma-washino-pre
-    url: /notes/kesennuma-washino-pre/
-  post:
-    author: Ogawa
+  subpages:
+  - author: Daichi Ogawa
     slug: kesennuma-ogawa-post
     url: /notes/kesennuma-ogawa-post/
   discussion_points:
@@ -78,12 +58,8 @@
 - id: ⑥
   spot: Rikuzentakata 1 (Memorial Park)
   slug: rikuzentakata-memorial
-  pre:
-    author: Kuwamoto
-    slug: rikuzentakata-memorial-kuwamoto-pre
-    url: /notes/rikuzentakata-memorial-kuwamoto-pre/
-  post:
-    author: Jingran Su
+  subpages:
+  - author: Jingran Su
     slug: rikuzentakata-memorial-su-post
     url: /notes/rikuzentakata-memorial-su-post/
   discussion_points:
@@ -93,12 +69,8 @@
 - id: ⑦
   spot: Rikuzentakata 2 (Kawaragawa Park and City Center)
   slug: rikuzentakata-kawaragawa
-  pre:
-    author: Konishi
-    slug: rikuzentakata-kawaragawa-konishi-pre
-    url: /notes/rikuzentakata-kawaragawa-konishi-pre/
-  post:
-    author: Suga
+  subpages:
+  - author: 須賀
     slug: rikuzentakata-kawaragawa-suga-post
     url: /notes/rikuzentakata-kawaragawa-suga-post/
   discussion_points:
@@ -107,12 +79,8 @@
 - id: ⑧
   spot: Toni District (Hongo, Kojirahama, Toni Elementary and Junior High School)
   slug: toni
-  pre:
-    author: Nakayama
-    slug: toni-nakayama-pre
-    url: /notes/toni-nakayama-pre/
-  post:
-    author: Ohashi
+  subpages:
+  - author: 大橋
     slug: toni-ohashi-post
     url: /notes/toni-ohashi-post/
   discussion_points:
@@ -121,12 +89,8 @@
 - id: ⑨
   spot: Kerobe
   slug: kerobe
-  pre:
-    author: Nakazawa
-    slug: kerobe-nakazawa-pre
-    url: /notes/kerobe-nakazawa-pre/
-  post:
-    author: Laureen
+  subpages:
+  - author: Laureen
     slug: kerobe-laureen-post
     url: /notes/kerobe-laureen-post/
   discussion_points:
@@ -134,12 +98,8 @@
 - id: ⑩
   spot: Kamaishi
   slug: kamaishi
-  pre:
-    author: Miki
-    slug: kamaishi-miki-pre
-    url: /notes/kamaishi-miki-pre/
-  post:
-    author: Nagai
+  subpages:
+  - author: 永井
     slug: kamaishi-nagai-post
     url: /notes/kamaishi-nagai-post/
   discussion_points:
@@ -147,12 +107,8 @@
 - id: ⑪
   spot: Taro
   slug: taro
-  pre:
-    author: Li
-    slug: taro-li-pre
-    url: /notes/taro-li-pre/
-  post:
-    author: Furuhashi
+  subpages:
+  - author: Fumihito Furuhashi
     slug: taro-furuhashi-post
     url: /notes/taro-furuhashi-post/
   discussion_points:

@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 陸前高田1（祈念公園）｜訪問後の記録
+title: 陸前高田1（祈念公園）｜Jingran Su
 spot_id: ⑥
 spot: 陸前高田1（祈念公園）
 author: Jingran Su
-phase: post
-phase_label: 訪問後の記録
 permalink: /notes/rikuzentakata-memorial-su-post/
 last_updated: '2026-04-29'
 discussion_points:

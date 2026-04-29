@@ -1,11 +1,9 @@
 ---
 layout: author
-title: 大川小｜訪問前の視点
+title: 大川小｜石河
 spot_id: ④
 spot: 大川小
 author: 石河
-phase: pre
-phase_label: 訪問前の視点
 permalink: /notes/okawa-ishikawa-pre/
 last_updated: '2026-04-29'
 discussion_points:
