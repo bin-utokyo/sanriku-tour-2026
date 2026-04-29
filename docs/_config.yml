@@ -17,6 +17,6 @@ exclude:
   - assets/images/materials/*.heic
   - assets/images/materials/*.JPG
 
-# For a project site such as https://username.github.io/repository-name/,
-# set baseurl to "/repository-name". Leave it blank for a User/Organization site.
-baseurl: ""
+url: "https://bin-utokyo.github.io"
+# Project site URL: https://bin-utokyo.github.io/sanriku-tour-2026/
+baseurl: "/sanriku-tour-2026"

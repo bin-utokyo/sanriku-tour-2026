@@ -19,18 +19,20 @@ docs/
   authors/*.md             # Destination page body content
 ```
 
+## Published Site
+
+GitHub Pages URL: <https://bin-utokyo.github.io/sanriku-tour-2026/>
+
 ## Publish with GitHub Pages
 
-1. Create a new repository on GitHub.
-2. Upload the contents of this repository to the repository root.
-3. Open `Settings` -> `Pages` in GitHub.
-4. Set `Build and deployment` -> `Source` to `Deploy from a branch`.
-5. Set `Branch` to `main`, set the folder to `/docs`, and save.
-6. Open the GitHub Pages URL shown by GitHub.
+1. Open `Settings` -> `Pages` in GitHub.
+2. Set `Build and deployment` -> `Source` to `Deploy from a branch`.
+3. Set `Branch` to `main`, set the folder to `/docs`, and save.
+4. Open the GitHub Pages URL shown by GitHub.
 
 ## Publication URL and `baseurl`
 
-If publishing as a User/Organization site named `username.github.io`, keep `baseurl` blank in `docs/_config.yml`. If publishing as a project site at `https://username.github.io/repository-name/`, set `baseurl: "/repository-name"`.
+This repository is a project site published at `https://bin-utokyo.github.io/sanriku-tour-2026/`, so `docs/_config.yml` uses `baseurl: "/sanriku-tour-2026"`.
 
 ## Editing
 
