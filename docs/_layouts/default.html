@@ -34,7 +34,7 @@
           <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Behavior in Networks Studies Unit" width="32" height="32" loading="lazy">
           <span>Behavior in Networks Studies Unit</span>
         </div>
-        <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        <p>© {{ site.time | date: '%Y' }} {{ site.organization | default: site.title }}. All rights reserved.</p>
       </div>
     </footer>
   </body>
