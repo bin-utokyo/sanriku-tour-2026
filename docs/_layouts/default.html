@@ -3,17 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'none'; font-src 'self'; form-action 'none'; frame-src https://www.google.com; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'none'; font-src 'self'; form-action 'none'; frame-src https://www.google.com; img-src 'self' data:; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self'; upgrade-insecure-requests">
     <meta name="referrer" content="no-referrer">
     {% assign document_title = page.title %}
+    {% assign document_spot = page.spot %}
+    {% assign document_author = page.author %}
+    {% assign document_author_attribute = page.attribute | default: page.year | default: page.grade %}
+    {% assign document_focus_points = page.discussion_points %}
+    {% assign document_image = page.image %}
+    {% assign document_summary = page.summary %}
     {% if page.layout == 'author' %}
-      {% assign document_spot = page.spot %}
-      {% assign document_author = page.author %}
       {% for item in site.data.spots %}
         {% for subpage in item.subpages %}
           {% if subpage.url == page.permalink %}
             {% assign document_spot = item.spot %}
             {% assign document_author = subpage.author %}
+            {% assign document_author_attribute = subpage.attribute | default: subpage.year | default: subpage.grade | default: document_author_attribute %}
+            {% assign document_image = subpage.image | default: item.image | default: document_image %}
+            {% assign document_focus_points = item.discussion_points | default: document_focus_points %}
+            {% assign document_summary = subpage.summary | default: item.summary | default: document_summary %}
           {% endif %}
         {% endfor %}
       {% endfor %}
@@ -22,11 +30,141 @@
         {% assign document_title = document_title | append: ' | ' | append: document_author %}
       {% endif %}
     {% endif %}
-    <title>{% if document_title %}{{ document_title | escape }} | {% endif %}{{ site.title | escape }}</title>
-    <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+    {% assign document_image = document_image | default: site.default_image | default: '/assets/images/materials/kesennuma.jpg' %}
+    {% capture full_title %}{% if document_title %}{{ document_title }} | {% endif %}{{ site.title }}{% endcapture %}
+    {% assign meta_description = page.description %}
+    {% if page.layout == 'author' %}
+      {% if meta_description == nil or meta_description == '' %}
+      {% assign meta_description = document_summary %}
+      {% endif %}
+      {% if meta_description == nil or meta_description == '' %}
+      {% capture focus_summary %}{% if document_focus_points %}{{ document_focus_points | join: '; ' }}{% endif %}{% endcapture %}
+      {% capture meta_description %}{% if document_author %}Field note by {{ document_author }} on {{ document_spot }}{% else %}Field note on {{ document_spot }}{% endif %} for Fukushima Sanriku Tour 2026{% if focus_summary != '' %}, covering {{ focus_summary }}{% endif %}.{% endcapture %}
+      {% endif %}
+    {% endif %}
+    {% assign meta_description = meta_description | default: site.description | strip_html | normalize_whitespace | strip | truncate: 160 %}
+    {% assign page_canonical = page.url | absolute_url %}
+    {% assign page_image = document_image | absolute_url %}
+    {% assign page_language = page.lang | default: site.lang | default: 'en' %}
+    {% assign site_home = '/' | absolute_url %}
+    {% assign organization_home = site.organization_url | default: site_home %}
+    {% assign organization_id = site_home | append: '#organization' %}
+    {% assign website_id = site_home | append: '#website' %}
+    {% assign robots_content = page.robots | default: 'index,follow,max-image-preview:large' %}
+    {% assign raw_page_content = page.content | strip_html | normalize_whitespace | strip %}
+    {% if page.permalink contains '-pre/' or raw_page_content == 'WIP' or raw_page_content contains 'このページは執筆用の雛形です' %}
+      {% assign robots_content = 'noindex,nofollow' %}
+    {% endif %}
+    <title>{{ full_title | strip | escape }}</title>
+    <meta name="description" content="{{ meta_description | escape }}">
+    <meta name="robots" content="{{ robots_content | escape }}">
+    <link rel="canonical" href="{{ page_canonical | escape }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | absolute_url | escape }}">
+    <link rel="alternate" type="text/markdown" title="LLM context for {{ site.title | escape }}" href="{{ '/llms.txt' | absolute_url | escape }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ full_title | strip | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
+    <meta property="og:url" content="{{ page_canonical | escape }}">
+    <meta property="og:image" content="{{ page_image | escape }}">
+    <meta property="og:locale" content="en_US">
+    {% if page.layout == 'author' %}
+    <meta property="og:type" content="article">
+    {% if document_author %}<meta property="article:author" content="{{ document_author | escape }}">{% endif %}
+    {% if page.last_updated %}<meta property="article:modified_time" content="{{ page.last_updated | date_to_xmlschema | escape }}">{% endif %}
+    {% else %}
+    <meta property="og:type" content="website">
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ full_title | strip | escape }}">
+    <meta name="twitter:description" content="{{ meta_description | escape }}">
+    <meta name="twitter:image" content="{{ page_image | escape }}">
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url | escape }}">
     <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.png' | relative_url | escape }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url | escape }}">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": {{ organization_id | jsonify }},
+          "name": {{ site.organization | default: site.title | jsonify }},
+          "url": {{ organization_home | jsonify }},
+          "logo": {
+            "@type": "ImageObject",
+            "url": {{ '/assets/images/logo.png' | absolute_url | jsonify }}
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": {{ website_id | jsonify }},
+          "name": {{ site.title | jsonify }},
+          "url": {{ site_home | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "publisher": {
+            "@id": {{ organization_id | jsonify }}
+          },
+          "inLanguage": {{ site.lang | default: 'en' | jsonify }}
+        },
+        {
+          "@type": {% if page.layout == 'author' %}"Article"{% else %}"CollectionPage"{% endif %},
+          "@id": {{ page_canonical | append: '#primary' | jsonify }},
+          "url": {{ page_canonical | jsonify }},
+          "name": {{ full_title | strip | jsonify }},
+          "headline": {{ document_title | default: site.title | jsonify }},
+          "description": {{ meta_description | jsonify }},
+          "inLanguage": {{ page_language | jsonify }},
+          "isPartOf": {
+            "@id": {{ website_id | jsonify }}
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": {{ page_image | jsonify }}
+          },
+          "image": {{ page_image | jsonify }},
+          "publisher": {
+            "@id": {{ organization_id | jsonify }}
+          }{% if page.layout == 'author' %},
+          "author": {
+            "@type": "Person",
+            "name": {{ document_author | default: site.organization | jsonify }}{% if document_author_attribute %},
+            "description": {{ document_author_attribute | jsonify }}{% endif %}
+          }{% if page.last_updated %},
+          "dateModified": {{ page.last_updated | date_to_xmlschema | jsonify }},
+          "datePublished": {{ page.last_updated | date_to_xmlschema | jsonify }}{% endif %}{% if document_spot %},
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": {{ document_spot | jsonify }}
+          }{% endif %}{% if document_focus_points %},
+          "keywords": {{ document_focus_points | join: ', ' | jsonify }}{% endif %}{% else %},
+          "about": [
+            { "@type": "Thing", "name": "Great East Japan Earthquake and tsunami" },
+            { "@type": "Thing", "name": "Fukushima Hamadori reconstruction" },
+            { "@type": "Thing", "name": "Sanriku coastal recovery" },
+            { "@type": "Thing", "name": "Disaster risk reduction fieldwork" }
+          ]{% endif %}
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": {{ page_canonical | append: '#breadcrumbs' | jsonify }},
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": {{ site_home | jsonify }}
+            }{% unless page.url == '/' %},
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": {{ document_title | default: page.title | jsonify }},
+              "item": {{ page_canonical | jsonify }}
+            }{% endunless %}
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>

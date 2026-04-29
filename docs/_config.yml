@@ -1,5 +1,6 @@
 title: "Fukushima Sanriku Tour 2026"
 organization: "Behavior in Networks Studies Unit"
+organization_url: "https://bin.t.u-tokyo.ac.jp/index_e.php"
 description: "A fieldwork record tracing recovery and disaster preparedness from Fukushima Hamadori to the Sanriku coast"
 lang: en
 timezone: Asia/Tokyo
@@ -20,3 +21,4 @@ exclude:
 url: "https://bin-utokyo.github.io"
 # Project site URL: https://bin-utokyo.github.io/sanriku-tour-2026/
 baseurl: "/sanriku-tour-2026"
+default_image: "/assets/images/materials/kesennuma.jpg"
