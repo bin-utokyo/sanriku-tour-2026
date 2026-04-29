@@ -19,9 +19,9 @@ docs/
   authors/*.md             # Destination page body content
 ```
 
-## Published Site
+## Expected GitHub Pages URL
 
-GitHub Pages URL: <https://bin-utokyo.github.io/sanriku-tour-2026/>
+After GitHub Pages is enabled, the site URL will be <https://bin-utokyo.github.io/sanriku-tour-2026/>.
 
 ## Publish with GitHub Pages
 
