@@ -1,26 +1,26 @@
 ---
 layout: default
-title: トップ
+title: Home
 ---
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero__copy">
     <p class="eyebrow">Fukushima Sanriku Tour 2026</p>
-    <h1 id="hero-title">福島三陸ツアー2026</h1>
-    <p>福島浜通りから三陸沿岸へ、復興の現場をたどる2日間のフィールドワーク記録です。</p>
-    <a class="text-link" href="#notes">訪問先の記録を見る</a>
+    <h1 id="hero-title">Fukushima Sanriku Tour 2026</h1>
+    <p>A two-day fieldwork record tracing sites of recovery from Fukushima Hamadori to the Sanriku coast.</p>
+    <a class="text-link" href="#notes">View field notes</a>
   </div>
-  <dl class="trip-facts" aria-label="ツアー概要">
+  <dl class="trip-facts" aria-label="Tour overview">
     <div>
-      <dt>日程</dt>
-      <dd>2026年4月18日・19日</dd>
+      <dt>Dates</dt>
+      <dd>April 18-19, 2026</dd>
     </div>
     <div>
-      <dt>区間</dt>
-      <dd>郡山駅から盛岡駅まで</dd>
+      <dt>Route</dt>
+      <dd>Koriyama Station to Morioka Station</dd>
     </div>
     <div>
-      <dt>テーマ</dt>
-      <dd>復興、防災、地域の暮らし</dd>
+      <dt>Themes</dt>
+      <dd>Recovery, disaster preparedness, and local life</dd>
     </div>
   </dl>
 </section>
@@ -29,7 +29,7 @@ title: トップ
   <div class="section-header">
     <div>
       <p class="eyebrow">Gallery</p>
-      <h2 id="gallery-title">現地の風景</h2>
+      <h2 id="gallery-title">Scenes from the Field</h2>
     </div>
   </div>
 
@@ -40,7 +40,7 @@ title: トップ
         {% assign image_ext = file.extname | downcase %}
         {% if image_ext == '.jpg' or image_ext == '.jpeg' %}
         <figure class="gallery-slide{% if gallery_count == 0 %} is-active{% endif %}" data-gallery-slide>
-          <img src="{{ file.path | relative_url }}" alt="福島三陸ツアーの現地写真" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
+          <img src="{{ file.path | relative_url }}" alt="Field photo from the Fukushima Sanriku Tour" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
         </figure>
         {% assign gallery_count = gallery_count | plus: 1 %}
         {% endif %}
@@ -48,13 +48,13 @@ title: トップ
     {% endfor %}
 
     {% if gallery_count == 0 %}
-    <p class="empty-gallery"><code>docs/assets/images/materials/</code> にJPEG画像を追加すると、ここに表示されます。</p>
+    <p class="empty-gallery">Add JPEG images to <code>docs/assets/images/materials/</code> to display them here.</p>
     {% endif %}
 
     <div class="gallery-controls"{% if gallery_count < 2 %} hidden{% endif %}>
-      <button type="button" data-gallery-prev aria-label="前の写真へ">‹</button>
+      <button type="button" data-gallery-prev aria-label="Previous photo">‹</button>
       <span data-gallery-index>1 / {{ gallery_count }}</span>
-      <button type="button" data-gallery-next aria-label="次の写真へ">›</button>
+      <button type="button" data-gallery-next aria-label="Next photo">›</button>
     </div>
   </div>
 </section>
@@ -63,7 +63,7 @@ title: トップ
   <div class="section-header">
     <div>
       <p class="eyebrow">Route</p>
-      <h2 id="route-title">行程</h2>
+      <h2 id="route-title">Itinerary</h2>
     </div>
   </div>
 
@@ -91,7 +91,7 @@ title: トップ
   <div class="section-header">
     <div>
       <p class="eyebrow">Field Notes</p>
-      <h2 id="notes-title">訪問先の記録</h2>
+      <h2 id="notes-title">Field Notes</h2>
     </div>
   </div>
 
@@ -109,13 +109,13 @@ title: トップ
           </ul>
         </div>
       </div>
-      <div class="visit-card__links" aria-label="{{ item.spot }}の記録">
+      <div class="visit-card__links" aria-label="Field notes for {{ item.spot }}">
         <a href="{{ item.pre.url | relative_url }}">
-          <span>訪問前の視点</span>
+          <span>Pre-visit Perspective</span>
           <strong>{{ item.pre.author }}</strong>
         </a>
         <a href="{{ item.post.url | relative_url }}">
-          <span>訪問後の記録</span>
+          <span>Post-visit Record</span>
           <strong>{{ item.post.author }}</strong>
         </a>
       </div>

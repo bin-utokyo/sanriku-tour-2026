@@ -3,7 +3,7 @@ layout: author
 title: 浪江町｜訪問後の記録
 spot_id: ②
 spot: 浪江町
-author: Kasun
+author: Kasun Thalgaskotuwa
 phase: post
 phase_label: 訪問後の記録
 permalink: /notes/namie-kasun-post/

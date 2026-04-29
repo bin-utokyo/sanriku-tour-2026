@@ -1,63 +1,63 @@
-# 福島三陸ツアー2026 GitHub Pages
+# Fukushima Sanriku Tour 2026 GitHub Pages
 
-このリポジトリは、福島三陸ツアー2026の行程、訪問先ごとの記録、写真ギャラリーを公開するためのGitHub Pagesサイトです。
+This repository contains a GitHub Pages site for publishing the Fukushima Sanriku Tour 2026 itinerary, destination notes, and photo gallery.
 
-## 構成
+## Structure
 
 ```text
 docs/
-  index.md                 # トップページ
-  guidelines.md            # 公開方針
-  _config.yml              # Jekyll設定
-  _data/itinerary.yml      # 行程データ
-  _data/spots.yml          # 訪問先リンクデータ
-  _layouts/default.html    # 共通レイアウト
-  _layouts/author.html     # 訪問先ページレイアウト
-  assets/css/style.css     # デザイン
-  assets/images/logo.ai    # ロゴ原本
-  assets/images/logo.png   # Web表示用ロゴ
-  assets/images/materials/ # トップページのギャラリー画像
-  authors/*.md             # 訪問先ごとの本文
+  index.md                 # Top page
+  guidelines.md            # Publication policy
+  _config.yml              # Jekyll configuration
+  _data/itinerary.yml      # Itinerary data
+  _data/spots.yml          # Destination link data
+  _layouts/default.html    # Shared layout
+  _layouts/author.html     # Destination page layout
+  assets/css/style.css     # Design
+  assets/images/logo.ai    # Original logo
+  assets/images/logo.png   # Web logo
+  assets/images/materials/ # Gallery images for the top page
+  authors/*.md             # Destination page body content
 ```
 
-## GitHub Pagesで公開する手順
+## Publish with GitHub Pages
 
-1. GitHubで新規リポジトリを作成する。
-2. このリポジトリの中身をリポジトリ直下にアップロードする。
-3. GitHubの `Settings` → `Pages` を開く。
-4. `Build and deployment` の `Source` を `Deploy from a branch` にする。
-5. `Branch` を `main`、フォルダを `/docs` にして保存する。
-6. 表示されるGitHub Pages URLにアクセスする。
+1. Create a new repository on GitHub.
+2. Upload the contents of this repository to the repository root.
+3. Open `Settings` -> `Pages` in GitHub.
+4. Set `Build and deployment` -> `Source` to `Deploy from a branch`.
+5. Set `Branch` to `main`, set the folder to `/docs`, and save.
+6. Open the GitHub Pages URL shown by GitHub.
 
-## 公開URLと `baseurl`
+## Publication URL and `baseurl`
 
-リポジトリ名が `username.github.io` のUser/Organization siteとして公開する場合、`docs/_config.yml` の `baseurl` は空欄のままで使えます。通常のProject siteとして `https://username.github.io/repository-name/` に公開する場合は、`baseurl: "/repository-name"` に変更してください。
+If publishing as a User/Organization site named `username.github.io`, keep `baseurl` blank in `docs/_config.yml`. If publishing as a project site at `https://username.github.io/repository-name/`, set `baseurl: "/repository-name"`.
 
-## 編集方法
+## Editing
 
-### トップページの訪問先リンクを編集する
+### Edit destination links on the top page
 
-`docs/_data/spots.yml` を編集します。訪問先名、担当者名、着目点、ページURLをまとめて管理できます。
+Edit `docs/_data/spots.yml`. Destination names, author names, focus points, and page URLs are managed there.
 
-### 行程を編集する
+### Edit the itinerary
 
-`docs/_data/itinerary.yml` を編集します。公開ページには集合・解散・訪問先など、外部向けに出してよい情報だけを載せます。
+Edit `docs/_data/itinerary.yml`. Include only meeting points, dismissal points, destinations, and other information that can be published externally.
 
-### 訪問先ページを編集する
+### Edit destination pages
 
-`docs/authors/` 内のMarkdownファイルを編集します。公開URLは front matter の `permalink` で `/notes/.../` に設定しています。
+Edit the Markdown files in `docs/authors/`. Public URLs are set to `/notes/.../` through each file's `permalink` in YAML front matter.
 
-### 新しいページを追加する
+### Add a new page
 
-1. `docs/_templates/author.md` をコピーする。
-2. ファイル名を英数字のslugに変更する。
-3. YAML front matter の `title`、`spot`、`author`、`phase_label`、`permalink` を編集する。
-4. トップページに出したい場合は `docs/_data/spots.yml` に登録する。
+1. Copy `docs/_templates/author.md`.
+2. Rename the file using an alphanumeric slug.
+3. Edit `title`, `spot`, `author`, `phase_label`, and `permalink` in the YAML front matter.
+4. To show the page on the top page, register it in `docs/_data/spots.yml`.
 
-## 公開前チェック
+## Pre-publication Checklist
 
-- 個人情報、顔写真、車両ナンバー、未公開資料が含まれていないか確認する。
-- 画像・図表・文章の引用条件を確認する。
-- 参考資料・出典を明記する。
-- 現地関係者から聞いた非公開情報をそのまま掲載しない。
-- トップページから各ページへのリンクが開くか確認する。
+- Check for personal information, identifiable faces, vehicle license plates, and unpublished materials.
+- Confirm citation conditions for images, figures, and text.
+- Clearly list references and sources.
+- Do not publish non-public information heard from local stakeholders as-is.
+- Confirm that links from the top page to each destination page open correctly.

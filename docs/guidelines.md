@@ -1,20 +1,20 @@
 ---
 layout: default
-title: 公開方針
+title: Publication Policy
 permalink: /guidelines/
 ---
-# 公開方針
+# Publication Policy
 
-このサイトは、福島三陸ツアー2026の訪問先と現地で得た学びを、研究室外の方にも読める形で公開するための記録です。
+This site records the destinations and on-site learning from the Fukushima Sanriku Tour 2026 in a form accessible to readers beyond the lab.
 
-## 掲載内容
+## Published Content
 
-訪問先ごとのページでは、対象地の背景、復興や防災に関わる観察、現地で考えた問いを整理します。公開する情報は、現地関係者の了承範囲、引用条件、画像利用の条件を確認したものに限ります。
+Each destination page organizes the site's background, observations related to recovery and disaster preparedness, and questions considered in the field. We publish only information for which local stakeholders' permission, citation conditions, and image-use conditions have been confirmed.
 
-## 写真・引用
+## Photos and Quotations
 
-写真や図表を掲載する場合は、権利関係と公開範囲を確認します。人物の顔、車両ナンバー、私有地、未公開資料、非公開の聞き取り内容が含まれる場合は、必要に応じて加工または掲載を見送ります。
+When publishing photos, figures, or quoted materials, we check rights and publication scope. If faces, vehicle license plates, private property, unpublished materials, or non-public interview content are included, we edit the material as needed or withhold it from publication.
 
-## 更新
+## Updates
 
-訪問先ページの本文は、確認済みの情報から順次更新します。地名、施設名、年月日、出典に誤りがないかを確認しながら公開します。
+Destination pages are updated progressively with confirmed information. We check place names, facility names, dates, and sources before publication.

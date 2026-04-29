@@ -2,58 +2,78 @@
 layout: default
 ---
 <article class="article">
-  {% assign note_label = page.phase_label %}
-  {% if note_label == nil or note_label == '' %}
-    {% if page.phase == 'pre' %}
-      {% assign note_label = '訪問前の視点' %}
-    {% elsif page.phase == 'post' %}
-      {% assign note_label = '訪問後の記録' %}
-    {% else %}
-      {% assign note_label = 'フィールドノート' %}
-    {% endif %}
+  {% assign note_label = 'Field Note' %}
+  {% assign spot_name = page.spot %}
+  {% assign author_name = page.author %}
+  {% assign focus_points = page.discussion_points %}
+
+  {% if page.phase == 'pre' %}
+    {% assign note_label = 'Pre-visit Perspective' %}
+  {% elsif page.phase == 'post' %}
+    {% assign note_label = 'Post-visit Record' %}
   {% endif %}
 
-  <p class="eyebrow">{{ page.spot_id }} {{ page.spot }} / {{ note_label }}</p>
-  <h1>{{ page.title }}</h1>
-
-  <dl class="meta-grid">
-    <div>
-      <dt>訪問先</dt>
-      <dd>{{ page.spot_id }} {{ page.spot }}</dd>
-    </div>
-    <div>
-      <dt>記録</dt>
-      <dd>{{ note_label }}</dd>
-    </div>
-    <div>
-      <dt>担当</dt>
-      <dd>{{ page.author }}</dd>
-    </div>
-    {% if page.last_updated %}
-    <div>
-      <dt>最終更新</dt>
-      <dd>{{ page.last_updated }}</dd>
-    </div>
+  {% for item in site.data.spots %}
+    {% if item.pre.url == page.permalink %}
+      {% assign spot_name = item.spot %}
+      {% assign author_name = item.pre.author %}
+      {% assign focus_points = item.discussion_points %}
+      {% assign note_label = 'Pre-visit Perspective' %}
+    {% elsif item.post.url == page.permalink %}
+      {% assign spot_name = item.spot %}
+      {% assign author_name = item.post.author %}
+      {% assign focus_points = item.discussion_points %}
+      {% assign note_label = 'Post-visit Record' %}
     {% endif %}
-  </dl>
+  {% endfor %}
 
-  {% if page.discussion_points and page.discussion_points.size > 0 %}
-  <section class="panel">
-    <h2>着目点</h2>
-    <ul class="point-list">
-      {% for point in page.discussion_points %}
-      <li>{{ point }}</li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
+  <header class="article-header">
+    <p class="eyebrow">{{ page.spot_id }} {{ spot_name }} / {{ note_label }}</p>
+    <h1>{{ spot_name }} | {{ note_label }}</h1>
+  </header>
 
-  <div class="article-body">
-    {{ content }}
+  <div class="article-shell">
+    <aside class="article-aside" aria-label="Page summary">
+      <dl class="article-meta">
+        <div>
+          <dt>Destination</dt>
+          <dd>{{ page.spot_id }} {{ spot_name }}</dd>
+        </div>
+        <div>
+          <dt>Note</dt>
+          <dd>{{ note_label }}</dd>
+        </div>
+        <div>
+          <dt>Author</dt>
+          <dd>{{ author_name }}</dd>
+        </div>
+        {% if page.last_updated %}
+        <div>
+          <dt>Last Updated</dt>
+          <dd>{{ page.last_updated }}</dd>
+        </div>
+        {% endif %}
+      </dl>
+
+      {% if focus_points and focus_points.size > 0 %}
+      <section class="focus-panel">
+        <h2>Focus Points</h2>
+        <ul class="point-list">
+          {% for point in focus_points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+    </aside>
+
+    <div class="article-body">
+      {{ content }}
+    </div>
   </div>
 
-  <nav class="article-nav" aria-label="ページ内ナビゲーション">
-    <a href="{{ '/' | relative_url }}">トップへ戻る</a>
-    <a href="{{ '/' | relative_url }}#notes">訪問先一覧へ</a>
+  <nav class="article-nav" aria-label="Article navigation">
+    <a href="{{ '/' | relative_url }}">Back to Home</a>
+    <a href="{{ '/' | relative_url }}#notes">Back to Field Notes</a>
   </nav>
 </article>

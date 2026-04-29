@@ -1,13 +1,13 @@
-title: "福島三陸ツアー2026"
+title: "Fukushima Sanriku Tour 2026"
 organization: "Behavior in Networks Studies Unit"
-description: "福島浜通りから三陸沿岸へ、復興と防災の現場をたどるフィールドワーク記録"
-lang: ja
+description: "A fieldwork record tracing recovery and disaster preparedness from Fukushima Hamadori to the Sanriku coast"
+lang: en
 timezone: Asia/Tokyo
 markdown: kramdown
 kramdown:
   input: GFM
 permalink: pretty
 
-# Project site（例：https://username.github.io/repository-name/）として公開する場合は、
-# baseurl を "/repository-name" に変更してください。User/Organization site（username.github.io）なら空欄のままで可。
+# For a project site such as https://username.github.io/repository-name/,
+# set baseurl to "/repository-name". Leave it blank for a User/Organization site.
 baseurl: ""

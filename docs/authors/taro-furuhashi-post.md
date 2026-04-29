@@ -3,7 +3,7 @@ layout: author
 title: 田老｜訪問後の記録
 spot_id: ⑪
 spot: 田老
-author: 古橋
+author: Fumihito Furuhashi
 phase: post
 phase_label: 訪問後の記録
 permalink: /notes/taro-furuhashi-post/

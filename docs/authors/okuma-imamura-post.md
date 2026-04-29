@@ -3,7 +3,7 @@ layout: author
 title: 大熊町｜訪問後の記録
 spot_id: ①
 spot: 大熊町
-author: 今村
+author: Keita Imamura
 phase: post
 phase_label: 訪問後の記録
 permalink: /notes/okuma-imamura-post/

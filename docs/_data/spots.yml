@@ -1,25 +1,25 @@
 - id: ①
-  spot: 大熊町
+  spot: Okuma Town
   slug: okuma
   pre:
-    author: 冨矢
+    author: Tomiya
     slug: okuma-tomiya-pre
     url: /notes/okuma-tomiya-pre/
   post:
-    author: 今村
+    author: Imamura
     slug: okuma-imamura-post
     url: /notes/okuma-imamura-post/
   discussion_points:
-  - 大川原地区は，どのような役割を持った拠点か
-  - 段階的な復興や拠点整備がどのような結果をもたらしたか
-  - 長期避難と帰還，帰還者と移住者の関係をどう捉えるか
-  - 低密度地域におけるモビリティをどう設計するか
-  - 災害公営住宅のデザインの特徴は何か
+  - What role does the Okawara District serve as a reconstruction base?
+  - What outcomes have phased recovery and base development produced?
+  - How should we understand long-term evacuation and return, and the relationship between returnees and newcomers?
+  - How should mobility be designed in low-density areas?
+  - What design features characterize the disaster public housing?
 - id: ②
-  spot: 浪江町
+  spot: Namie Town
   slug: namie
   pre:
-    author: 饗場
+    author: Aiba
     slug: namie-aiba-pre
     url: /notes/namie-aiba-pre/
   post:
@@ -27,102 +27,102 @@
     slug: namie-kasun-post
     url: /notes/namie-kasun-post/
   discussion_points:
-  - 浪江駅周辺は，どのような役割を持った拠点か
-  - 段階的な復興や拠点整備がどのような結果をもたらしたか
-  - 長期避難と帰還，帰還者と移住者の関係をどう捉えるか
-  - 低密度地域におけるモビリティをどう設計するか
-  - F-REI，創造的復興とは何か
+  - What role does the area around Namie Station serve as a reconstruction base?
+  - What outcomes have phased recovery and base development produced?
+  - How should we understand long-term evacuation and return, and the relationship between returnees and newcomers?
+  - How should mobility be designed in low-density areas?
+  - What are F-REI and creative reconstruction?
 - id: ③
-  spot: 仙台市
+  spot: Sendai City
   slug: sendai
   pre:
-    author: 長田
+    author: Osada
     slug: sendai-osada-pre
     url: /notes/sendai-osada-pre/
   post:
-    author: 小関
+    author: Koseki
     slug: sendai-koseki-post
     url: /notes/sendai-koseki-post/
   discussion_points:
-  - 仙台市の被害と，その中で仙台東部道路がどう機能したか
-  - 低平地が広がる仙台市での今後の津波対策
-  - 沿岸被災自治体からの避難受け入れ，東北最大都市としての役割
+  - How was Sendai City affected, and how did the Sendai Tobu Road function during the disaster?
+  - What tsunami countermeasures are needed for Sendai's low-lying coastal areas?
+  - How does Tohoku's largest city serve in receiving evacuees from coastal disaster-affected municipalities?
 - id: ④
-  spot: 大川小
+  spot: Okawa Elementary School
   slug: okawa
   pre:
-    author: 石河
+    author: Ishikawa
     slug: okawa-ishikawa-pre
     url: /notes/okawa-ishikawa-pre/
   post:
-    author: 黄
+    author: Huang
     slug: okawa-huang-post
     url: /notes/okawa-huang-post/
   discussion_points:
-  - 時間があっても逃げ遅れてしまった原因は何だと考えられるか。災害時に生じる心理バイアスについて
-  - 痛ましい災害の伝承方法や語り方について
+  - Why might people fail to evacuate even when there appears to be enough time? Consider psychological biases during disasters.
+  - How should painful disaster memories be passed down and narrated?
 - id: ⑤
-  spot: 気仙沼市街
+  spot: Kesennuma City Center
   slug: kesennuma
   pre:
-    author: 鷲野
+    author: Washino
     slug: kesennuma-washino-pre
     url: /notes/kesennuma-washino-pre/
   post:
-    author: 小川
+    author: Ogawa
     slug: kesennuma-ogawa-post
     url: /notes/kesennuma-ogawa-post/
   discussion_points:
-  - 災害前までのインフラ整備と，都市の発展，被害の関係性
-  - 復興計画や，港に面する復興拠点の設計上の特徴
+  - Relationship between pre-disaster infrastructure development, urban growth, and damage
+  - Design characteristics of reconstruction plans and waterfront reconstruction bases
 - id: ⑥
-  spot: 陸前高田1（祈念公園）
+  spot: Rikuzentakata 1 (Memorial Park)
   slug: rikuzentakata-memorial
   pre:
-    author: 桑本
+    author: Kuwamoto
     slug: rikuzentakata-memorial-kuwamoto-pre
     url: /notes/rikuzentakata-memorial-kuwamoto-pre/
   post:
-    author: Su
+    author: Jingran Su
     slug: rikuzentakata-memorial-su-post
     url: /notes/rikuzentakata-memorial-su-post/
   discussion_points:
-  - 災害前までのインフラ整備と，都市の発展，被害の関係性
-  - 災害危険区域の設定と高台移転，浸水予想エリアの土地利用計画
-  - 祈りの空間のデザイン
+  - Relationship between pre-disaster infrastructure development, urban growth, and damage
+  - Disaster hazard zoning, relocation to higher ground, and land-use planning for expected inundation areas
+  - Design of spaces for mourning
 - id: ⑦
-  spot: 陸前高田2（川原川公園，市街地）
+  spot: Rikuzentakata 2 (Kawaragawa Park and City Center)
   slug: rikuzentakata-kawaragawa
   pre:
-    author: 小西
+    author: Konishi
     slug: rikuzentakata-kawaragawa-konishi-pre
     url: /notes/rikuzentakata-kawaragawa-konishi-pre/
   post:
-    author: 須賀
+    author: Suga
     slug: rikuzentakata-kawaragawa-suga-post
     url: /notes/rikuzentakata-kawaragawa-suga-post/
   discussion_points:
-  - 低平地が広がる陸前高田で取られた津波対策・復興計画
-  - 川原川周辺の設計，嵩上げ地盤からの接続
+  - Tsunami countermeasures and reconstruction planning in low-lying Rikuzentakata
+  - Design around the Kawaragawa River and connections from raised ground
 - id: ⑧
-  spot: 唐丹町（本郷，小白浜，唐丹小中学校）
+  spot: Toni District (Hongo, Kojirahama, Toni Elementary and Junior High School)
   slug: toni
   pre:
-    author: 名嘉山
+    author: Nakayama
     slug: toni-nakayama-pre
     url: /notes/toni-nakayama-pre/
   post:
-    author: 大橋
+    author: Ohashi
     slug: toni-ohashi-post
     url: /notes/toni-ohashi-post/
   discussion_points:
-  - 既往津波への対応や地形的特徴が生んだ集落ごとの計画上の違い
-  - 唐丹小中学校の建築上の特徴
+  - Planning differences among settlements shaped by previous tsunami responses and topography
+  - Architectural characteristics of Toni Elementary and Junior High School
 - id: ⑨
-  spot: 花露辺
+  spot: Kerobe
   slug: kerobe
   pre:
-    author: 中澤
+    author: Nakazawa
     slug: kerobe-nakazawa-pre
     url: /notes/kerobe-nakazawa-pre/
   post:
@@ -130,31 +130,31 @@
     slug: kerobe-laureen-post
     url: /notes/kerobe-laureen-post/
   discussion_points:
-  - この地域の復興過程における特徴
+  - Characteristics of the recovery process in this area
 - id: ⑩
-  spot: 釜石
+  spot: Kamaishi
   slug: kamaishi
   pre:
-    author: 三木
+    author: Miki
     slug: kamaishi-miki-pre
     url: /notes/kamaishi-miki-pre/
   post:
-    author: 永井
+    author: Nagai
     slug: kamaishi-nagai-post
     url: /notes/kamaishi-nagai-post/
   discussion_points:
-  - 市内の復興計画や，復興公営住宅のデザイン上の工夫
+  - Kamaishi's reconstruction plans and design approaches in reconstruction public housing
 - id: ⑪
-  spot: 田老
+  spot: Taro
   slug: taro
   pre:
-    author: 李
+    author: Li
     slug: taro-li-pre
     url: /notes/taro-li-pre/
   post:
-    author: 古橋
+    author: Furuhashi
     slug: taro-furuhashi-post
     url: /notes/taro-furuhashi-post/
   discussion_points:
-  - 震災前までに取られていた津波対策（ハード・ソフト）
-  - それによって命は守られたか。その後の教訓
+  - Pre-disaster tsunami countermeasures, both structural and non-structural
+  - Did those measures protect lives? Lessons learned afterward

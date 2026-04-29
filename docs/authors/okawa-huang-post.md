@@ -3,7 +3,7 @@ layout: author
 title: 大川小｜訪問後の記録
 spot_id: ④
 spot: 大川小
-author: 黄
+author: Huang Hsin Kai
 phase: post
 phase_label: 訪問後の記録
 permalink: /notes/okawa-huang-post/

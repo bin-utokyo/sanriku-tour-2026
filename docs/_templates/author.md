@@ -1,32 +1,32 @@
 ---
 layout: author
-title: "訪問先名｜訪問前の視点または訪問後の記録"
-spot_id: "①"
-spot: "訪問先名"
-author: "担当者名"
-phase: "pre"
-phase_label: "訪問前の視点"
-permalink: /notes/template/
-last_updated: "2026-04-29"
+title: "Destination Name | Pre-visit Perspective or Post-visit Record"
+spot_id: ①
+spot: "Destination Name"
+author: "Author Name"
+phase: pre
+phase_label: "Pre-visit Perspective"
+permalink: /notes/example-slug/
 discussion_points:
-  - "着目点をここに入力"
+  - "Enter a focus point here"
 ---
-## 1. 概要
 
-読み手が最初に把握すべき対象地、災害・復興の文脈、現地で見るべきポイントを簡潔に整理します。
+## 1. Overview
 
-## 2. 背景
+Briefly summarize the destination, the disaster and recovery context, and the key points readers should understand first.
 
-対象地の地形、被害、復興計画、制度、施設整備、関係主体などを整理します。
+## 2. Background
 
-## 3. 観察・調査内容
+Organize the site's topography, damage, recovery plans, institutions, facilities, and relevant stakeholders.
 
-訪問前の視点では「現地で確認したいこと」、訪問後の記録では「現地で観察したこと」を中心に書きます。
+## 3. Observations and Fieldwork
 
-## 4. 論点・考察
+For a pre-visit perspective, focus on what should be checked in the field. For a post-visit record, focus on what was observed on site.
 
-単なる記録ではなく、復興計画、都市・建築・土木、コミュニティ、防災、モビリティなどの観点から考察します。
+## 4. Discussion
 
-## 5. 参考資料
+Move beyond simple documentation and discuss the site through perspectives such as recovery planning, architecture, civil engineering, urban planning, community, disaster preparedness, and mobility.
 
-- 参考資料名、発行主体、URL、確認日など
+## 5. References
+
+- Reference title, issuing organization, URL, access date, and other citation details
