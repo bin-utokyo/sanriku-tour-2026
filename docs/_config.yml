@@ -1,0 +1,12 @@
+title: "東北研修 事前・事後資料"
+description: "東北研修の事前資料・事後資料を執筆者別に公開するためのサイト"
+lang: ja
+timezone: Asia/Tokyo
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+
+# Project site（例：https://username.github.io/repository-name/）として公開する場合は、
+# baseurl を "/repository-name" に変更してください。User/Organization site（username.github.io）なら空欄のままで可。
+baseurl: ""

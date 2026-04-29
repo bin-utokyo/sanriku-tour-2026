@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article class="article">
+  <p class="eyebrow">{{ page.spot_id }} {{ page.spot }} / {{ page.phase_label }} / {{ page.author }}</p>
+  <h1>{{ page.title }}</h1>
+
+  <dl class="meta-grid">
+    <div>
+      <dt>スポット</dt>
+      <dd>{{ page.spot_id }} {{ page.spot }}</dd>
+    </div>
+    <div>
+      <dt>区分</dt>
+      <dd>{{ page.phase_label }}</dd>
+    </div>
+    <div>
+      <dt>執筆者</dt>
+      <dd>{{ page.author }}</dd>
+    </div>
+    {% if page.last_updated %}
+    <div>
+      <dt>最終更新</dt>
+      <dd>{{ page.last_updated }}</dd>
+    </div>
+    {% endif %}
+  </dl>
+
+  {% if page.discussion_points and page.discussion_points.size > 0 %}
+  <section class="panel">
+    <h2>論点の例</h2>
+    <ul class="point-list">
+      {% for point in page.discussion_points %}
+      <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+
+  <nav class="article-nav" aria-label="ページ内ナビゲーション">
+    <a href="{{ '/' | relative_url }}">Homeへ戻る</a>
+    <a href="{{ '/' | relative_url }}#authors">執筆者一覧へ</a>
+  </nav>
+</article>

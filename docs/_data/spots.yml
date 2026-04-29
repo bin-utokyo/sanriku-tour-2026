@@ -1,0 +1,160 @@
+- id: ①
+  spot: 大熊町
+  slug: okuma
+  pre:
+    author: 冨矢
+    slug: okuma-tomiya-pre
+    url: /authors/okuma-tomiya-pre/
+  post:
+    author: 今村
+    slug: okuma-imamura-post
+    url: /authors/okuma-imamura-post/
+  discussion_points:
+  - 大川原地区は，どのような役割を持った拠点か
+  - 段階的な復興や拠点整備がどのような結果をもたらしたか
+  - 長期避難と帰還，帰還者と移住者の関係をどう捉えるか
+  - 低密度地域におけるモビリティをどう設計するか
+  - 災害公営住宅のデザインの特徴は何か
+- id: ②
+  spot: 浪江町
+  slug: namie
+  pre:
+    author: 饗場
+    slug: namie-aiba-pre
+    url: /authors/namie-aiba-pre/
+  post:
+    author: Kasun
+    slug: namie-kasun-post
+    url: /authors/namie-kasun-post/
+  discussion_points:
+  - 浪江駅周辺は，どのような役割を持った拠点か
+  - 段階的な復興や拠点整備がどのような結果をもたらしたか
+  - 長期避難と帰還，帰還者と移住者の関係をどう捉えるか
+  - 低密度地域におけるモビリティをどう設計するか
+  - F-REI，創造的復興とは何か
+- id: ③
+  spot: 仙台市
+  slug: sendai
+  pre:
+    author: 長田
+    slug: sendai-osada-pre
+    url: /authors/sendai-osada-pre/
+  post:
+    author: 小関
+    slug: sendai-koseki-post
+    url: /authors/sendai-koseki-post/
+  discussion_points:
+  - 仙台市の被害と，その中で仙台東部道路がどう機能したか
+  - 低平地が広がる仙台市での今後の津波対策
+  - 沿岸被災自治体からの避難受け入れ，東北最大都市としての役割
+- id: ④
+  spot: 大川小
+  slug: okawa
+  pre:
+    author: 石河
+    slug: okawa-ishikawa-pre
+    url: /authors/okawa-ishikawa-pre/
+  post:
+    author: 黄
+    slug: okawa-huang-post
+    url: /authors/okawa-huang-post/
+  discussion_points:
+  - 時間があっても逃げ遅れてしまった原因は何だと考えられるか。災害時に生じる心理バイアスについて
+  - 痛ましい災害の伝承方法や語り方について
+- id: ⑤
+  spot: 気仙沼市街
+  slug: kesennuma
+  pre:
+    author: 鷲野
+    slug: kesennuma-washino-pre
+    url: /authors/kesennuma-washino-pre/
+  post:
+    author: 小川
+    slug: kesennuma-ogawa-post
+    url: /authors/kesennuma-ogawa-post/
+  discussion_points:
+  - 災害前までのインフラ整備と，都市の発展，被害の関係性
+  - 復興計画や，港に面する復興拠点の設計上の特徴
+- id: ⑥
+  spot: 陸前高田1（祈念公園）
+  slug: rikuzentakata-memorial
+  pre:
+    author: 桑本
+    slug: rikuzentakata-memorial-kuwamoto-pre
+    url: /authors/rikuzentakata-memorial-kuwamoto-pre/
+  post:
+    author: Su
+    slug: rikuzentakata-memorial-su-post
+    url: /authors/rikuzentakata-memorial-su-post/
+  discussion_points:
+  - 災害前までのインフラ整備と，都市の発展，被害の関係性
+  - 災害危険区域の設定と高台移転，浸水予想エリアの土地利用計画
+  - 祈りの空間のデザイン
+- id: ⑦
+  spot: 陸前高田2（川原川公園，市街地）
+  slug: rikuzentakata-kawaragawa
+  pre:
+    author: 小西
+    slug: rikuzentakata-kawaragawa-konishi-pre
+    url: /authors/rikuzentakata-kawaragawa-konishi-pre/
+  post:
+    author: 須賀
+    slug: rikuzentakata-kawaragawa-suga-post
+    url: /authors/rikuzentakata-kawaragawa-suga-post/
+  discussion_points:
+  - 低平地が広がる陸前高田で取られた津波対策・復興計画
+  - 川原川周辺の設計，嵩上げ地盤からの接続
+- id: ⑧
+  spot: 唐丹町（本郷，小白浜，唐丹小中学校）
+  slug: toni
+  pre:
+    author: 名嘉山
+    slug: toni-nakayama-pre
+    url: /authors/toni-nakayama-pre/
+  post:
+    author: 大橋
+    slug: toni-ohashi-post
+    url: /authors/toni-ohashi-post/
+  discussion_points:
+  - 既往津波への対応や地形的特徴が生んだ集落ごとの計画上の違い
+  - 唐丹小中学校の建築上の特徴
+- id: ⑨
+  spot: 花露辺
+  slug: kerobe
+  pre:
+    author: 中澤
+    slug: kerobe-nakazawa-pre
+    url: /authors/kerobe-nakazawa-pre/
+  post:
+    author: Laureen
+    slug: kerobe-laureen-post
+    url: /authors/kerobe-laureen-post/
+  discussion_points:
+  - この地域の復興過程における特徴
+- id: ⑩
+  spot: 釜石
+  slug: kamaishi
+  pre:
+    author: 三木
+    slug: kamaishi-miki-pre
+    url: /authors/kamaishi-miki-pre/
+  post:
+    author: 永井
+    slug: kamaishi-nagai-post
+    url: /authors/kamaishi-nagai-post/
+  discussion_points:
+  - 市内の復興計画や，復興公営住宅のデザイン上の工夫
+- id: ⑪
+  spot: 田老
+  slug: taro
+  pre:
+    author: 李
+    slug: taro-li-pre
+    url: /authors/taro-li-pre/
+  post:
+    author: 古橋
+    slug: taro-furuhashi-post
+    url: /authors/taro-furuhashi-post/
+  discussion_points:
+  - 震災前までに取られていた津波対策（ハード・ソフト）
+  - それによって命は守られたか。その後の教訓
