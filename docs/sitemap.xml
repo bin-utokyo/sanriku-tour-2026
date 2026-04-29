@@ -6,7 +6,6 @@ permalink: /sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ '/' | absolute_url | xml_escape }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,8 +19,6 @@ permalink: /sitemap.xml
     <loc>{{ subpage.url | absolute_url | xml_escape }}</loc>
     {% if note_page.last_updated %}
     <lastmod>{{ note_page.last_updated | date_to_xmlschema }}</lastmod>
-    {% else %}
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
