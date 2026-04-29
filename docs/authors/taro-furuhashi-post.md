@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 田老｜Fumihito Furuhashi
-spot_id: ⑪
+spot_id: 11
 spot: 田老
 author: Fumihito Furuhashi
 permalink: /notes/taro-furuhashi-post/
@@ -11,4 +11,4 @@ discussion_points:
 - それによって命は守られたか。その後の教訓
 ---
 
-WIP
+## 1. Overview of Visited Sites

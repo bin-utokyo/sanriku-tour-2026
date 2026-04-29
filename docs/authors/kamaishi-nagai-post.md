@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 釜石｜永井
-spot_id: ⑩
+spot_id: 10
 spot: 釜石
 author: 永井
 permalink: /notes/kamaishi-nagai-post/

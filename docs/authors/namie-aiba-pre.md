@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 浪江町｜饗場
-spot_id: ②
+spot_id: 2
 spot: 浪江町
 author: 饗場
 permalink: /notes/namie-aiba-pre/

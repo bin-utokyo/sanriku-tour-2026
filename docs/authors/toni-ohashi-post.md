@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 唐丹町（本郷，小白浜，唐丹小中学校）｜大橋
-spot_id: ⑧
+spot_id: 8
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: 大橋
 permalink: /notes/toni-ohashi-post/
@@ -23,11 +23,11 @@ discussion_points:
 
 | Category | Main sites | Focus |
 |---|---|---|
-| Disaster remains | ③ Ukedo Elementary<br>⑥ Okawa Elementary<br>⑰ Former Taro Kanko Hotel | Evacuation decisions, preservation, and transmission of lessons. |
-| Reconstruction planning | ② Okuma<br>⑤ Namie<br>⑧ Rikuzentakata<br>⑨ Kawaragawa Park | Return after evacuation, land raising, public space, and local history. |
-| Coastal protection choices | ⑬ Kerobe in Toni-cho<br>⑯ Taro seawall | Seawalls, visibility of the sea, relocation, and daily livelihoods. |
-| Community implementation | ⑤ Hamadori Regional Design Center Namie; Namie Smart Mobility | Deployment of technology and mobility through dialogue with residents. |
-| Everyday resilience | ⑪ Toni Elementary and Junior High School | Education, evacuation routes, terrain, and community landscape. |
+| Disaster remains | 3 Ukedo Elementary<br>6 Okawa Elementary<br>17 Former Taro Kanko Hotel | Evacuation decisions, preservation, and transmission of lessons. |
+| Reconstruction planning | 2 Okuma<br>5 Namie<br>8 Rikuzentakata<br>9 Kawaragawa Park | Return after evacuation, land raising, public space, and local history. |
+| Coastal protection choices | 13 Kerobe in Toni-cho<br>16 Taro seawall | Seawalls, visibility of the sea, relocation, and daily livelihoods. |
+| Community implementation | 5 Hamadori Regional Design Center Namie; Namie Smart Mobility | Deployment of technology and mobility through dialogue with residents. |
+| Everyday resilience | 11 Toni Elementary and Junior High School | Education, evacuation routes, terrain, and community landscape. |
 
 This report focuses on Kamaishi Municipal Toni Elementary School and Toni Junior High School as a case in which a school, a reconstruction facility, and a local disaster-prevention base are integrated.
 

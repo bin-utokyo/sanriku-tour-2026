@@ -1,4 +1,4 @@
-- id: ①
+- id: 1
   spot: Okuma Town
   slug: okuma
   subpages:
@@ -11,7 +11,7 @@
   - How should we understand long-term evacuation and return, and the relationship between returnees and newcomers?
   - How should mobility be designed in low-density areas?
   - What design features characterize the disaster public housing?
-- id: ②
+- id: 2
   spot: Namie Town
   slug: namie
   subpages:
@@ -24,7 +24,7 @@
   - How should we understand long-term evacuation and return, and the relationship between returnees and newcomers?
   - How should mobility be designed in low-density areas?
   - What are F-REI and creative reconstruction?
-- id: ③
+- id: 3
   spot: Sendai City
   slug: sendai
   subpages:
@@ -35,7 +35,7 @@
   - How was Sendai City affected, and how did the Sendai Tobu Road function during the disaster?
   - What tsunami countermeasures are needed for Sendai's low-lying coastal areas?
   - How does Tohoku's largest city serve in receiving evacuees from coastal disaster-affected municipalities?
-- id: ④
+- id: 4
   spot: Okawa Elementary School
   slug: okawa
   subpages:
@@ -45,7 +45,7 @@
   discussion_points:
   - Why might people fail to evacuate even when there appears to be enough time? Consider psychological biases during disasters.
   - How should painful disaster memories be passed down and narrated?
-- id: ⑤
+- id: 5
   spot: Kesennuma City Center
   slug: kesennuma
   subpages:
@@ -55,7 +55,7 @@
   discussion_points:
   - Relationship between pre-disaster infrastructure development, urban growth, and damage
   - Design characteristics of reconstruction plans and waterfront reconstruction bases
-- id: ⑥
+- id: 6
   spot: Rikuzentakata 1 (Memorial Park)
   slug: rikuzentakata-memorial
   subpages:
@@ -66,7 +66,7 @@
   - Relationship between pre-disaster infrastructure development, urban growth, and damage
   - Disaster hazard zoning, relocation to higher ground, and land-use planning for expected inundation areas
   - Design of spaces for mourning
-- id: ⑦
+- id: 7
   spot: Rikuzentakata 2 (Kawaragawa Park and City Center)
   slug: rikuzentakata-kawaragawa
   subpages:
@@ -76,7 +76,7 @@
   discussion_points:
   - Tsunami countermeasures and reconstruction planning in low-lying Rikuzentakata
   - Design around the Kawaragawa River and connections from raised ground
-- id: ⑧
+- id: 8
   spot: Toni District (Hongo, Kojirahama, Toni Elementary and Junior High School)
   slug: toni
   subpages:
@@ -86,7 +86,7 @@
   discussion_points:
   - Planning differences among settlements shaped by previous tsunami responses and topography
   - Architectural characteristics of Toni Elementary and Junior High School
-- id: ⑨
+- id: 9
   spot: Kerobe
   slug: kerobe
   subpages:
@@ -95,7 +95,7 @@
     url: /notes/kerobe-laureen-post/
   discussion_points:
   - Characteristics of the recovery process in this area
-- id: ⑩
+- id: 10
   spot: Kamaishi
   slug: kamaishi
   subpages:
@@ -104,7 +104,7 @@
     url: /notes/kamaishi-nagai-post/
   discussion_points:
   - Kamaishi's reconstruction plans and design approaches in reconstruction public housing
-- id: ⑪
+- id: 11
   spot: Taro
   slug: taro
   subpages:

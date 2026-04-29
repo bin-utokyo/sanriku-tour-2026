@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 仙台市｜長田
-spot_id: ③
+spot_id: 3
 spot: 仙台市
 author: 長田
 permalink: /notes/sendai-osada-pre/

@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 気仙沼市街｜Daichi Ogawa
-spot_id: ⑤
+spot_id: 5
 spot: 気仙沼市街
 author: Daichi Ogawa
 permalink: /notes/kesennuma-ogawa-post/

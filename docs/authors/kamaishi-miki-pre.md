@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 釜石｜三木
-spot_id: ⑩
+spot_id: 10
 spot: 釜石
 author: 三木
 permalink: /notes/kamaishi-miki-pre/

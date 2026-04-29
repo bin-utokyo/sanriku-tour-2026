@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 花露辺｜中澤
-spot_id: ⑨
+spot_id: 9
 spot: 花露辺
 author: 中澤
 permalink: /notes/kerobe-nakazawa-pre/

@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 大川小｜Huang Hsin Kai
-spot_id: ④
+spot_id: 4
 spot: 大川小
 author: Huang Hsin Kai
 permalink: /notes/okawa-huang-post/

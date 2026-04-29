@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 陸前高田1（祈念公園）｜桑本
-spot_id: ⑥
+spot_id: 6
 spot: 陸前高田1（祈念公園）
 author: 桑本
 permalink: /notes/rikuzentakata-memorial-kuwamoto-pre/

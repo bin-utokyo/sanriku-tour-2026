@@ -1,7 +1,7 @@
 ---
 layout: author
 title: "Destination Name | Author Name"
-spot_id: ①
+spot_id: 1
 spot: "Destination Name"
 author: "Author Full Name"
 permalink: /notes/example-slug/

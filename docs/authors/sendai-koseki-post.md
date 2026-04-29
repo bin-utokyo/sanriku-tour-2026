@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 仙台市｜Rena Koseki
-spot_id: ③
+spot_id: 3
 spot: 仙台市
 author: Rena Koseki
 permalink: /notes/sendai-koseki-post/

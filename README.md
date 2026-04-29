@@ -58,6 +58,7 @@ Edit the Markdown files in `docs/authors/`. Public URLs are set to `/notes/.../`
 
 - Check for personal information, identifiable faces, vehicle license plates, and unpublished materials.
 - Strip image metadata before publishing, especially GPS, device, author, and editing-history metadata.
+- Publish web-ready image formats only. Keep source/vector/intermediate files such as `.ai` and `.emf` out of the generated site and public commits unless their release is intentional.
 - Confirm citation conditions for images, figures, and text.
 - Clearly list references and sources.
 - Do not publish non-public information heard from local stakeholders as-is.

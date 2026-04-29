@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 花露辺｜Laureen
-spot_id: ⑨
+spot_id: 9
 spot: 花露辺
 author: Laureen
 permalink: /notes/kerobe-laureen-post/

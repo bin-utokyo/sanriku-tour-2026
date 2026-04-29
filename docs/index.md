@@ -3,11 +3,15 @@ layout: default
 title: Home
 ---
 <section class="hero" aria-labelledby="hero-title">
+  <img class="hero__image" src="{{ '/assets/images/materials/kesennuma.JPG' | relative_url | escape }}" alt="" aria-hidden="true" fetchpriority="high">
   <div class="hero__copy">
-    <p class="eyebrow">Fukushima Sanriku Tour 2026</p>
+    <p class="eyebrow">Fieldwork Archive / April 18-19, 2026</p>
     <h1 id="hero-title">Fukushima Sanriku Tour 2026</h1>
-    <p>A two-day fieldwork record tracing sites of recovery from Fukushima Hamadori to the Sanriku coast.</p>
-    <a class="text-link" href="#notes">View field notes</a>
+    <p class="hero__lead">From Fukushima Hamadori to the Sanriku coast, this two-day record follows places where recovery is visible in infrastructure, memory, and everyday work.</p>
+    <div class="hero__actions">
+      <a class="text-link" href="#notes">View field notes</a>
+      <a class="text-link text-link--secondary" href="#route">See the route</a>
+    </div>
   </div>
   <dl class="trip-facts" aria-label="Tour overview">
     <div>

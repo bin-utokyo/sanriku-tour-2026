@@ -30,12 +30,10 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="site-header__inner">
-        <div class="site-brand">
-          <a href="https://bin.t.u-tokyo.ac.jp/index_e.php" rel="noopener noreferrer">
-            <img src="{{ '/assets/images/logo.png' | relative_url | escape }}" alt="Behavior in Networks Studies Unit" width="40" height="40">
-          </a>
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title | escape }} home">
+          <img src="{{ '/assets/images/logo.png' | relative_url | escape }}" alt="" width="40" height="40">
           <span>{{ site.title | escape }}</span>
-        </div>
+        </a>
         <nav class="site-nav" aria-label="Primary navigation">
           <a href="{{ '/' | relative_url }}#gallery">Gallery</a>
           <a href="{{ '/' | relative_url }}#route">Route</a>

@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 田老｜李
-spot_id: ⑪
+spot_id: 11
 spot: 田老
 author: 李
 permalink: /notes/taro-li-pre/

@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 大熊町｜Keita Imamura
-spot_id: ①
+spot_id: 1
 spot: 大熊町
 author: Keita Imamura
 permalink: /notes/okuma-imamura-post/

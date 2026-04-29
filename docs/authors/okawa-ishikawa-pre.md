@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 大川小｜石河
-spot_id: ④
+spot_id: 4
 spot: 大川小
 author: 石河
 permalink: /notes/okawa-ishikawa-pre/

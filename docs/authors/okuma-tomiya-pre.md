@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 大熊町｜冨矢
-spot_id: ①
+spot_id: 1
 spot: 大熊町
 author: 冨矢
 permalink: /notes/okuma-tomiya-pre/

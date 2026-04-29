@@ -1,7 +1,7 @@
 ---
 layout: author
 title: 気仙沼市街｜鷲野
-spot_id: ⑤
+spot_id: 5
 spot: 気仙沼市街
 author: 鷲野
 permalink: /notes/kesennuma-washino-pre/
