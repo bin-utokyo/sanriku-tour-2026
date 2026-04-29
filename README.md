@@ -1,6 +1,6 @@
-# 東北研修 事前・事後資料 GitHub Pages スターター
+# 東北研修 事前・訪問後の記録 GitHub Pages スターター
 
-このリポジトリは、東北研修の事前資料・事後資料を外部公開するためのGitHub Pages用スターターです。
+このリポジトリは、東北研修の訪問前の視点・訪問後の記録を外部公開するためのGitHub Pages用スターターです。
 
 ## 構成
 
@@ -37,7 +37,7 @@ docs/
 
 ### 執筆者ページを編集する
 
-`docs/authors/` 内のMarkdownファイルを編集します。本文は通常のMarkdownで記述できます。
+`docs/notes/` 内のMarkdownファイルを編集します。本文は通常のMarkdownで記述できます。
 
 ### 新しいsubpageを追加する
 

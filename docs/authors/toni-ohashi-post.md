@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 唐丹町（唐丹小中学校）｜事後資料
+title: 唐丹町（唐丹小中学校）｜訪問後の記録
 spot_id: ⑧
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: 大橋
 phase: post
-phase_label: 事後資料
-permalink: /authors/toni-ohashi-post/
+phase_label: 訪問後の記録
+permalink: /notes/toni-ohashi-post/
 last_updated: '2026-04-29'
 discussion_points:
 - 既往津波への対応や地形的特徴が生んだ集落ごとの計画上の違い
@@ -19,7 +19,7 @@ discussion_points:
 
 **Purpose:** To understand the damage caused by the Great East Japan Earthquake, the subsequent reconstruction process, and future planning through field visits and interviews.
 
-![概観]({{ '/assets/images/authors/toni-ohashi-post/01.jpeg' | relative_url }})
+![概観]({{ '/assets/images/notes/toni-ohashi-post/01.jpeg' | relative_url }})
 
 ### Study Tour Route and Visited Sites
 
@@ -54,7 +54,7 @@ The lesson from Toni Elementary and Junior High School is that disaster-preventi
 | Colors and materials | Roof and wall colors refer to the former village landscape. |
 | Careful details | Mechanical equipment, handrails, terraces, and courtyards are treated without excessive visual emphasis. |
 
-![唐丹小中学校の外観]({{ '/assets/images/authors/toni-ohashi-post/02.jpeg' | relative_url }})
+![唐丹小中学校の外観]({{ '/assets/images/notes/toni-ohashi-post/02.jpeg' | relative_url }})
 
 ## 3. Lessons and Reflections
 

@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 大川小｜事前資料
+title: 大川小｜訪問前の視点
 spot_id: ④
 spot: 大川小
 author: 石河
 phase: pre
-phase_label: 事前資料
-permalink: /authors/okawa-ishikawa-pre/
+phase_label: 訪問前の視点
+permalink: /notes/okawa-ishikawa-pre/
 last_updated: '2026-04-29'
 discussion_points:
 - 時間があっても逃げ遅れてしまった原因は何だと考えられるか。災害時に生じる心理バイアスについて
@@ -30,7 +30,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 

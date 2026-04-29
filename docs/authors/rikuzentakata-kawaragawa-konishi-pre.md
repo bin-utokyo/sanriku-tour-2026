@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 陸前高田2（川原川公園，市街地）｜事前資料
+title: 陸前高田2（川原川公園，市街地）｜訪問前の視点
 spot_id: ⑦
 spot: 陸前高田2（川原川公園，市街地）
 author: 小西
 phase: pre
-phase_label: 事前資料
-permalink: /authors/rikuzentakata-kawaragawa-konishi-pre/
+phase_label: 訪問前の視点
+permalink: /notes/rikuzentakata-kawaragawa-konishi-pre/
 last_updated: '2026-04-29'
 discussion_points:
 - 低平地が広がる陸前高田で取られた津波対策・復興計画
@@ -30,7 +30,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 

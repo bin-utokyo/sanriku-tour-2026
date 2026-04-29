@@ -11,11 +11,15 @@
     <a class="skip-link" href="#main">本文へ移動</a>
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a class="site-brand" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Behavior in Networks Studies Unit" width="40" height="40">
+          <span>{{ site.title }}</span>
+        </a>
         <nav class="site-nav" aria-label="主要ナビゲーション">
-          <a href="{{ '/' | relative_url }}#spots">スポット一覧</a>
-          <a href="{{ '/' | relative_url }}#authors">執筆者別</a>
-          <a href="{{ '/guidelines/' | relative_url }}">執筆・公開ガイド</a>
+          <a href="{{ '/' | relative_url }}#gallery">ギャラリー</a>
+          <a href="{{ '/' | relative_url }}#route">行程</a>
+          <a href="{{ '/' | relative_url }}#notes">訪問先</a>
+          <a href="{{ '/guidelines/' | relative_url }}">公開方針</a>
         </nav>
       </div>
     </header>
@@ -26,8 +30,11 @@
 
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <p>© {{ site.time | date: '%Y' }} 東北研修</p>
-        <p>公開前に個人情報・引用・画像権利・現地関係者の了承範囲を確認してください。</p>
+        <div class="site-footer__brand">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Behavior in Networks Studies Unit" width="32" height="32" loading="lazy">
+          <span>Behavior in Networks Studies Unit</span>
+        </div>
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
       </div>
     </footer>
   </body>

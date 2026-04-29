@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 大熊町｜事後資料
+title: 大熊町｜訪問後の記録
 spot_id: ①
 spot: 大熊町
 author: 今村
 phase: post
-phase_label: 事後資料
-permalink: /authors/okuma-imamura-post/
+phase_label: 訪問後の記録
+permalink: /notes/okuma-imamura-post/
 last_updated: '2026-04-29'
 discussion_points:
 - 大川原地区は，どのような役割を持った拠点か
@@ -33,7 +33,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 

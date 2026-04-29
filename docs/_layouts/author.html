@@ -2,20 +2,31 @@
 layout: default
 ---
 <article class="article">
-  <p class="eyebrow">{{ page.spot_id }} {{ page.spot }} / {{ page.phase_label }} / {{ page.author }}</p>
+  {% assign note_label = page.phase_label %}
+  {% if note_label == nil or note_label == '' %}
+    {% if page.phase == 'pre' %}
+      {% assign note_label = '訪問前の視点' %}
+    {% elsif page.phase == 'post' %}
+      {% assign note_label = '訪問後の記録' %}
+    {% else %}
+      {% assign note_label = 'フィールドノート' %}
+    {% endif %}
+  {% endif %}
+
+  <p class="eyebrow">{{ page.spot_id }} {{ page.spot }} / {{ note_label }}</p>
   <h1>{{ page.title }}</h1>
 
   <dl class="meta-grid">
     <div>
-      <dt>スポット</dt>
+      <dt>訪問先</dt>
       <dd>{{ page.spot_id }} {{ page.spot }}</dd>
     </div>
     <div>
-      <dt>区分</dt>
-      <dd>{{ page.phase_label }}</dd>
+      <dt>記録</dt>
+      <dd>{{ note_label }}</dd>
     </div>
     <div>
-      <dt>執筆者</dt>
+      <dt>担当</dt>
       <dd>{{ page.author }}</dd>
     </div>
     {% if page.last_updated %}
@@ -28,7 +39,7 @@ layout: default
 
   {% if page.discussion_points and page.discussion_points.size > 0 %}
   <section class="panel">
-    <h2>論点の例</h2>
+    <h2>着目点</h2>
     <ul class="point-list">
       {% for point in page.discussion_points %}
       <li>{{ point }}</li>
@@ -42,7 +53,7 @@ layout: default
   </div>
 
   <nav class="article-nav" aria-label="ページ内ナビゲーション">
-    <a href="{{ '/' | relative_url }}">Homeへ戻る</a>
-    <a href="{{ '/' | relative_url }}#authors">執筆者一覧へ</a>
+    <a href="{{ '/' | relative_url }}">トップへ戻る</a>
+    <a href="{{ '/' | relative_url }}#notes">訪問先一覧へ</a>
   </nav>
 </article>

@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 唐丹町（本郷，小白浜，唐丹小中学校）｜事前資料
+title: 唐丹町（本郷，小白浜，唐丹小中学校）｜訪問前の視点
 spot_id: ⑧
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: 名嘉山
 phase: pre
-phase_label: 事前資料
-permalink: /authors/toni-nakayama-pre/
+phase_label: 訪問前の視点
+permalink: /notes/toni-nakayama-pre/
 last_updated: '2026-04-29'
 discussion_points:
 - 既往津波への対応や地形的特徴が生んだ集落ごとの計画上の違い
@@ -30,7 +30,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 

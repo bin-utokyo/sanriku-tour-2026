@@ -1,74 +1,168 @@
 ---
 layout: default
-title: Home
+title: トップ
 ---
-<section class="hero">
-  <h1>東北研修の事前・事後資料</h1>
-  <p>各スポットの事前調査・現地訪問後の考察を、執筆者別のsubpageとして整理する公開用サイトです。Homeではスポット別の担当者と論点を一覧し、各執筆者ページに遷移できます。</p>
-  <div class="hero-actions">
-    <a class="button" href="#spots">スポット一覧を見る</a>
-    <a class="button-secondary" href="#authors">執筆者別ページを見る</a>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__copy">
+    <p class="eyebrow">Fukushima Sanriku Tour 2026</p>
+    <h1 id="hero-title">福島三陸ツアー2026</h1>
+    <p>福島浜通りから三陸沿岸へ、復興の現場をたどる2日間のフィールドワーク記録です。</p>
+    <a class="text-link" href="#notes">訪問先の記録を見る</a>
   </div>
+  <dl class="trip-facts" aria-label="ツアー概要">
+    <div>
+      <dt>日程</dt>
+      <dd>2026年4月18日・19日</dd>
+    </div>
+    <div>
+      <dt>区間</dt>
+      <dd>郡山駅から盛岡駅まで</dd>
+    </div>
+    <div>
+      <dt>テーマ</dt>
+      <dd>復興、防災、地域の暮らし</dd>
+    </div>
+  </dl>
 </section>
 
-<section id="spots" class="section">
+<section id="gallery" class="section section--wide" aria-labelledby="gallery-title">
   <div class="section-header">
     <div>
-      <h2>スポット別資料一覧</h2>
-      <p>事前資料・事後資料の執筆者名をクリックすると、該当subpageに移動します。</p>
+      <p class="eyebrow">Gallery</p>
+      <h2 id="gallery-title">現地の風景</h2>
     </div>
   </div>
 
-  <div class="table-wrap">
-    <table class="spot-table">
-      <thead>
-        <tr>
-          <th>スポット</th>
-          <th>事前資料</th>
-          <th>事後資料</th>
-          <th>論点の例</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for item in site.data.spots %}
-        <tr>
-          <td class="spot-name">{{ item.id }} {{ item.spot }}</td>
-          <td><a class="author-link" href="{{ item.pre.url | relative_url }}">{{ item.pre.author }}</a></td>
-          <td><a class="author-link" href="{{ item.post.url | relative_url }}">{{ item.post.author }}</a></td>
-          <td>
-            <ul>
-              {% for point in item.discussion_points %}
-              <li>{{ point }}</li>
-              {% endfor %}
-            </ul>
-          </td>
-        </tr>
+  <div class="gallery-shell" data-gallery>
+    {% assign gallery_count = 0 %}
+    {% for file in site.static_files %}
+      {% if file.path contains '/assets/images/materials/' %}
+        {% assign image_ext = file.extname | downcase %}
+        {% if image_ext == '.jpg' or image_ext == '.jpeg' %}
+        <figure class="gallery-slide{% if gallery_count == 0 %} is-active{% endif %}" data-gallery-slide>
+          <img src="{{ file.path | relative_url }}" alt="福島三陸ツアーの現地写真" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
+        </figure>
+        {% assign gallery_count = gallery_count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if gallery_count == 0 %}
+    <p class="empty-gallery"><code>docs/assets/images/materials/</code> にJPEG画像を追加すると、ここに表示されます。</p>
+    {% endif %}
+
+    <div class="gallery-controls"{% if gallery_count < 2 %} hidden{% endif %}>
+      <button type="button" data-gallery-prev aria-label="前の写真へ">‹</button>
+      <span data-gallery-index>1 / {{ gallery_count }}</span>
+      <button type="button" data-gallery-next aria-label="次の写真へ">›</button>
+    </div>
+  </div>
+</section>
+
+<section id="route" class="section" aria-labelledby="route-title">
+  <div class="section-header">
+    <div>
+      <p class="eyebrow">Route</p>
+      <h2 id="route-title">行程</h2>
+    </div>
+  </div>
+
+  <div class="route-grid">
+    {% for day in site.data.itinerary %}
+    <article class="route-day">
+      <h3>{{ day.day }}</h3>
+      <ol class="timeline">
+        {% for stop in day.stops %}
+        <li>
+          <time>{{ stop.time }}</time>
+          <span>{{ stop.place }}</span>
+          {% if stop.note %}
+          <small>{{ stop.note }}</small>
+          {% endif %}
+        </li>
         {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<section id="authors" class="section">
-  <div class="section-header">
-    <div>
-      <h2>執筆者別ページ</h2>
-      <p>Home下に配置する全subpageの一覧です。</p>
-    </div>
-  </div>
-
-  <div class="author-grid">
-    {% for item in site.data.spots %}
-    <a class="author-card" href="{{ item.pre.url | relative_url }}">
-      <span>事前資料</span>
-      <strong>{{ item.pre.author }}</strong>
-      <small>{{ item.id }} {{ item.spot }}</small>
-    </a>
-    <a class="author-card" href="{{ item.post.url | relative_url }}">
-      <span>事後資料</span>
-      <strong>{{ item.post.author }}</strong>
-      <small>{{ item.id }} {{ item.spot }}</small>
-    </a>
+      </ol>
+    </article>
     {% endfor %}
   </div>
 </section>
+
+<section id="notes" class="section" aria-labelledby="notes-title">
+  <div class="section-header">
+    <div>
+      <p class="eyebrow">Field Notes</p>
+      <h2 id="notes-title">訪問先の記録</h2>
+    </div>
+  </div>
+
+  <div class="visit-list">
+    {% for item in site.data.spots %}
+    <article class="visit-card" id="{{ item.slug }}">
+      <div class="visit-card__main">
+        <span class="visit-number">{{ item.id }}</span>
+        <div>
+          <h3>{{ item.spot }}</h3>
+          <ul class="point-list">
+            {% for point in item.discussion_points %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="visit-card__links" aria-label="{{ item.spot }}の記録">
+        <a href="{{ item.pre.url | relative_url }}">
+          <span>訪問前の視点</span>
+          <strong>{{ item.pre.author }}</strong>
+        </a>
+        <a href="{{ item.post.url | relative_url }}">
+          <span>訪問後の記録</span>
+          <strong>{{ item.post.author }}</strong>
+        </a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+  (() => {
+    const gallery = document.querySelector("[data-gallery]");
+    if (!gallery) return;
+
+    const slides = Array.from(gallery.querySelectorAll("[data-gallery-slide]"));
+    const index = gallery.querySelector("[data-gallery-index]");
+    const prev = gallery.querySelector("[data-gallery-prev]");
+    const next = gallery.querySelector("[data-gallery-next]");
+    if (slides.length === 0) return;
+
+    let active = 0;
+    let timer = null;
+
+    const show = (target) => {
+      slides[active].classList.remove("is-active");
+      active = (target + slides.length) % slides.length;
+      slides[active].classList.add("is-active");
+      if (index) index.textContent = `${active + 1} / ${slides.length}`;
+    };
+
+    const restart = () => {
+      if (timer) window.clearInterval(timer);
+      if (slides.length > 1) {
+        timer = window.setInterval(() => show(active + 1), 4800);
+      }
+    };
+
+    if (prev) prev.addEventListener("click", () => {
+      show(active - 1);
+      restart();
+    });
+
+    if (next) next.addEventListener("click", () => {
+      show(active + 1);
+      restart();
+    });
+
+    show(0);
+    restart();
+  })();
+</script>

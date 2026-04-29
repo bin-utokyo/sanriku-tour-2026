@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 仙台市｜事前資料
+title: 仙台市｜訪問前の視点
 spot_id: ③
 spot: 仙台市
 author: 長田
 phase: pre
-phase_label: 事前資料
-permalink: /authors/sendai-osada-pre/
+phase_label: 訪問前の視点
+permalink: /notes/sendai-osada-pre/
 last_updated: '2026-04-29'
 discussion_points:
 - 仙台市の被害と，その中で仙台東部道路がどう機能したか
@@ -31,7 +31,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 

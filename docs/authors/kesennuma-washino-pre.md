@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 気仙沼市街｜事前資料
+title: 気仙沼市街｜訪問前の視点
 spot_id: ⑤
 spot: 気仙沼市街
 author: 鷲野
 phase: pre
-phase_label: 事前資料
-permalink: /authors/kesennuma-washino-pre/
+phase_label: 訪問前の視点
+permalink: /notes/kesennuma-washino-pre/
 last_updated: '2026-04-29'
 discussion_points:
 - 災害前までのインフラ整備と，都市の発展，被害の関係性
@@ -30,7 +30,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 

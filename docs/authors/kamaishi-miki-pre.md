@@ -1,12 +1,12 @@
 ---
 layout: author
-title: 釜石｜事前資料
+title: 釜石｜訪問前の視点
 spot_id: ⑩
 spot: 釜石
 author: 三木
 phase: pre
-phase_label: 事前資料
-permalink: /authors/kamaishi-miki-pre/
+phase_label: 訪問前の視点
+permalink: /notes/kamaishi-miki-pre/
 last_updated: '2026-04-29'
 discussion_points:
 - 市内の復興計画や，復興公営住宅のデザイン上の工夫
@@ -29,7 +29,7 @@ discussion_points:
 
 ## 4. 論点・考察
 
-Homeに掲載されている論点を起点に、自分の問いを明確化してください。事後資料では、現地で見たこと、聞いたこと、事前調査との違い、今後検討すべき課題を整理します。
+トップページに掲載されている論点を起点に、自分の問いを明確化してください。訪問後の記録では、現地で見たこと、聞いたこと、訪問前の下調べとの違い、今後検討すべき課題を整理します。
 
 ## 5. 参考資料
 
