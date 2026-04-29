@@ -337,7 +337,6 @@ select {
 .gallery-shell {
   position: relative;
   overflow: hidden;
-  min-height: 320px;
   background: #111827;
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -346,6 +345,7 @@ select {
 .gallery-slide {
   display: none;
   margin: 0;
+  background: #111827;
 }
 
 .gallery-slide.is-active {
@@ -356,8 +356,8 @@ select {
 .gallery-slide img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: clamp(320px, 60vw, 680px);
+  object-fit: contain;
 }
 
 .gallery-controls {

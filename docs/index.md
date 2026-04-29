@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <section class="hero" aria-labelledby="hero-title">
-  <img class="hero__image" src="{{ '/assets/images/materials/kesennuma.JPG' | relative_url | escape }}" alt="" aria-hidden="true" fetchpriority="high">
+  <img class="hero__image" src="{{ '/assets/images/materials/kesennuma.jpg' | relative_url | escape }}" alt="" aria-hidden="true" fetchpriority="high">
   <div class="hero__copy">
     <p class="eyebrow">Fieldwork Archive / April 18-19, 2026</p>
     <h1 id="hero-title">Fukushima Sanriku Tour 2026</h1>
@@ -113,17 +113,13 @@ title: Home
   </div>
 
   <div class="gallery-shell" data-gallery>
-    {% assign gallery_count = 0 %}
-    {% for file in site.static_files %}
-      {% if file.path contains '/assets/images/materials/' %}
-        {% assign image_ext = file.extname | downcase %}
-        {% if image_ext == '.jpg' or image_ext == '.jpeg' %}
-        <figure class="gallery-slide{% if gallery_count == 0 %} is-active{% endif %}" data-gallery-slide>
-          <img src="{{ file.path | relative_url | escape }}" alt="Field photo from the Fukushima Sanriku Tour" loading="{% if gallery_count == 0 %}eager{% else %}lazy{% endif %}">
-        </figure>
-        {% assign gallery_count = gallery_count | plus: 1 %}
-        {% endif %}
-      {% endif %}
+    {% assign gallery_items = site.data.gallery %}
+    {% assign gallery_count = gallery_items | size %}
+    {% for item in gallery_items %}
+    {% assign image_path = '/assets/images/materials/' | append: item.image %}
+    <figure class="gallery-slide{% if forloop.first %} is-active{% endif %}" data-gallery-slide aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
+      <img src="{{ image_path | relative_url | escape }}" alt="{{ item.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+    </figure>
     {% endfor %}
 
     {% if gallery_count == 0 %}

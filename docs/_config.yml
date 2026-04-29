@@ -13,6 +13,9 @@ exclude:
   - Gemfile.lock
   - assets/images/logo.ai
   - assets/images/authors/namie-kasun-post/16.emf
+  - assets/images/materials/*.HEIC
+  - assets/images/materials/*.heic
+  - assets/images/materials/*.JPG
 
 # For a project site such as https://username.github.io/repository-name/,
 # set baseurl to "/repository-name". Leave it blank for a User/Organization site.
