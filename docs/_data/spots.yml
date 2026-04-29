@@ -3,7 +3,7 @@
   slug: okuma
   subpages:
   - author: Keita Imamura
-    year: Doctoral Program, 1st Year
+    attribute: Doctoral Program, 1st Year
     slug: okuma-imamura-post
     url: /notes/okuma-imamura-post/
   discussion_points:
@@ -17,6 +17,7 @@
   slug: namie
   subpages:
   - author: Kasun Thalgaskotuwa
+    attribute: Doctoral Program, 1st Year
     slug: namie-kasun-post
     url: /notes/namie-kasun-post/
   discussion_points:
@@ -30,6 +31,7 @@
   slug: sendai
   subpages:
   - author: Rena Koseki
+    attribute: Doctoral Program, 1st Year
     slug: sendai-koseki-post
     url: /notes/sendai-koseki-post/
   discussion_points:
@@ -41,6 +43,7 @@
   slug: okawa
   subpages:
   - author: Huang Hsin Kai
+    attribute: Doctoral Program, 1st Year
     slug: okawa-huang-post
     url: /notes/okawa-huang-post/
   discussion_points:
@@ -51,6 +54,7 @@
   slug: kesennuma
   subpages:
   - author: Daichi Ogawa
+    attribute: Doctoral Program, 1st Year
     slug: kesennuma-ogawa-post
     url: /notes/kesennuma-ogawa-post/
   discussion_points:
@@ -61,6 +65,7 @@
   slug: rikuzentakata-memorial
   subpages:
   - author: Jingran Su
+    attribute: Doctoral Program, 1st Year
     slug: rikuzentakata-memorial-su-post
     url: /notes/rikuzentakata-memorial-su-post/
   discussion_points:
@@ -72,6 +77,7 @@
   slug: rikuzentakata-kawaragawa
   subpages:
   - author: Riho Suga
+    attribute: Doctoral Program, 1st Year
     slug: rikuzentakata-kawaragawa-suga-post
     url: /notes/rikuzentakata-kawaragawa-suga-post/
   discussion_points:
@@ -82,6 +88,7 @@
   slug: toni
   subpages:
   - author: Nobumasa Ohashi
+    attribute: Research Fellow
     slug: toni-ohashi-post
     url: /notes/toni-ohashi-post/
   discussion_points:
@@ -92,6 +99,7 @@
   slug: kerobe
   subpages:
   - author: Laureen Attolou
+    attribute: Doctoral Program, 1st Year
     slug: kerobe-Laureen Attolou-post
     url: /notes/kerobe-Laureen Attolou-post/
   discussion_points:
@@ -101,6 +109,7 @@
   slug: kamaishi
   subpages:
   - author: Kohei Nagai
+    attribute: Research Fellow
     slug: kamaishi-nagai-post
     url: /notes/kamaishi-nagai-post/
   discussion_points:
@@ -110,6 +119,7 @@
   slug: taro
   subpages:
   - author: Fumihito Furuhashi
+    attribute: Doctoral Program, 1st Year
     slug: taro-furuhashi-post
     url: /notes/taro-furuhashi-post/
   discussion_points:

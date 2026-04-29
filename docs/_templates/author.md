@@ -4,6 +4,7 @@ title: "Destination Name | Author Name"
 spot_id: 1
 spot: "Destination Name"
 author: "Author Full Name"
+attribute: "Author's Affiliation or Role"
 permalink: /notes/example-slug/
 discussion_points:
   - "Enter a focus point here"

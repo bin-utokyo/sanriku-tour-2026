@@ -4,6 +4,7 @@ layout: default
 <article class="article">
   {% assign spot_name = page.spot %}
   {% assign author_name = page.author %}
+  {% assign author_attribute = page.attribute | default: page.year | default: page.grade %}
   {% assign focus_points = page.discussion_points %}
 
   {% for item in site.data.spots %}
@@ -11,6 +12,7 @@ layout: default
       {% if subpage.url == page.permalink %}
         {% assign spot_name = item.spot %}
         {% assign author_name = subpage.author %}
+        {% assign author_attribute = subpage.attribute | default: subpage.year | default: subpage.grade | default: author_attribute %}
         {% assign focus_points = item.discussion_points %}
       {% endif %}
     {% endfor %}
@@ -31,7 +33,12 @@ layout: default
         </div>
         <div>
           <dt>Author</dt>
-          <dd>{{ author_name | escape }}</dd>
+          <dd>
+            {{ author_name | escape }}
+            {% if author_attribute %}
+            <span class="article-meta__subline">{{ author_attribute | escape }}</span>
+            {% endif %}
+          </dd>
         </div>
         {% if page.last_updated %}
         <div>

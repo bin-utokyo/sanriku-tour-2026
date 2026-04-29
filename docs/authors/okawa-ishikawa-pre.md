@@ -4,6 +4,7 @@ title: 大川小｜石河
 spot_id: 4
 spot: 大川小
 author: 石河
+attribute: Doctoral Program, 1st Year
 permalink: /notes/okawa-ishikawa-pre/
 last_updated: '2026-04-29'
 discussion_points:

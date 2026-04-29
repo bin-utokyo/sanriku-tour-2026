@@ -101,7 +101,12 @@ title: Home
 
   <div class="visit-list">
     {% for item in site.data.spots %}
+    {% assign primary_subpage = item.subpages | first %}
+    {% if primary_subpage %}
+    <a class="visit-card" id="{{ item.slug | slugify | escape }}" href="{{ primary_subpage.url | relative_url | escape }}" aria-label="Open field note for {{ item.spot | escape }}">
+    {% else %}
     <article class="visit-card" id="{{ item.slug | slugify | escape }}">
+    {% endif %}
       <div class="visit-card__main">
         <span class="visit-number">{{ item.id | escape }}</span>
         <div>
@@ -115,16 +120,20 @@ title: Home
       </div>
       <div class="visit-card__links" aria-label="Field notes for {{ item.spot | escape }}">
         {% for subpage in item.subpages %}
-        {% assign subpage_year = subpage.year | default: subpage.grade %}
-        <a href="{{ subpage.url | relative_url | escape }}" aria-label="{{ item.spot | escape }} field note by {{ subpage.author | escape }}{% if subpage_year %}, {{ subpage_year | escape }}{% endif %}">
+        {% assign subpage_attribute = subpage.attribute | default: subpage.year | default: subpage.grade %}
+        <div class="visit-card__meta">
           <span class="visit-card__meta-row"><span class="visit-card__meta-label">Author:</span> <strong>{{ subpage.author | escape }}</strong></span>
-          {% if subpage_year %}
-          <span class="visit-card__meta-row"><span class="visit-card__meta-label">Year:</span> {{ subpage_year | escape }}</span>
+          {% if subpage_attribute %}
+          <span class="visit-card__meta-row">{{ subpage_attribute | escape }}</span>
           {% endif %}
-        </a>
+        </div>
         {% endfor %}
       </div>
+    {% if primary_subpage %}
+    </a>
+    {% else %}
     </article>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

@@ -4,6 +4,7 @@ title: 唐丹町（本郷，小白浜，唐丹小中学校）｜Nobumasa Ohashi
 spot_id: 8
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: Nobumasa Ohashi
+attribute: Research Fellow
 permalink: /notes/toni-ohashi-post/
 last_updated: '2026-04-29'
 discussion_points:

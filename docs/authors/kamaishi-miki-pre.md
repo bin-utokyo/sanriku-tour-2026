@@ -4,6 +4,7 @@ title: 釜石｜三木
 spot_id: 10
 spot: 釜石
 author: 三木
+attribute: Doctoral Program, 1st Year
 permalink: /notes/kamaishi-miki-pre/
 last_updated: '2026-04-29'
 discussion_points:

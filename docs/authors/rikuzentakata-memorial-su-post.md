@@ -4,6 +4,7 @@ title: 陸前高田1（祈念公園）｜Jingran Su
 spot_id: 6
 spot: 陸前高田1（祈念公園）
 author: Jingran Su
+attribute: Doctoral Program, 1st Year
 permalink: /notes/rikuzentakata-memorial-su-post/
 last_updated: '2026-04-29'
 discussion_points:

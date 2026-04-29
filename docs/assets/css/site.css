@@ -466,6 +466,31 @@ select {
   box-shadow: 0 8px 18px rgba(24, 34, 45, 0.05);
 }
 
+.visit-card[href] {
+  color: var(--text);
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.visit-card[href]:hover {
+  color: var(--text);
+  border-color: var(--accent-2);
+  box-shadow: 0 12px 24px rgba(24, 34, 45, 0.09);
+  transform: translateY(-1px);
+}
+
+.visit-card[href]:hover h3 {
+  color: var(--accent-2);
+}
+
+.visit-card[href]:focus-visible {
+  outline: 3px solid rgba(15, 111, 122, 0.32);
+  outline-offset: 3px;
+}
+
 .visit-card__main {
   display: grid;
   grid-template-columns: 48px minmax(0, 1fr);
@@ -495,7 +520,7 @@ select {
   align-content: start;
 }
 
-.visit-card__links a {
+.visit-card__meta {
   display: grid;
   gap: 3px;
   padding: 0 0 10px;
@@ -506,18 +531,9 @@ select {
   text-decoration: none;
 }
 
-.visit-card__links a:last-child {
+.visit-card__meta:last-child {
   padding-bottom: 0;
   border-bottom: 0;
-}
-
-.visit-card__links a:hover {
-  color: var(--accent-2);
-}
-
-.visit-card__links a:hover .visit-card__meta-label,
-.visit-card__links a:hover strong {
-  color: var(--accent-2);
 }
 
 .visit-card__meta-row {
@@ -584,6 +600,13 @@ select {
 
 .article-meta div {
   padding: 14px;
+}
+
+.article-meta__subline {
+  display: block;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 400;
 }
 
 .focus-panel {

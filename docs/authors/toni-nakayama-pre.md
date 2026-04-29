@@ -4,6 +4,7 @@ title: 唐丹町（本郷，小白浜，唐丹小中学校）｜名嘉山
 spot_id: 8
 spot: 唐丹町（本郷，小白浜，唐丹小中学校）
 author: 名嘉山
+attribute: Doctoral Program, 1st Year
 permalink: /notes/toni-nakayama-pre/
 last_updated: '2026-04-29'
 discussion_points:

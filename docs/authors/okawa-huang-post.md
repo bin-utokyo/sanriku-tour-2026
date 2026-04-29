@@ -4,6 +4,7 @@ title: 大川小｜Huang Hsin Kai
 spot_id: 4
 spot: 大川小
 author: Huang Hsin Kai
+attribute: Doctoral Program, 1st Year
 permalink: /notes/okawa-huang-post/
 last_updated: '2026-04-29'
 discussion_points:

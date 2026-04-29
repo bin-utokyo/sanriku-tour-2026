@@ -4,6 +4,7 @@ title: 陸前高田2（川原川公園，市街地）｜小西
 spot_id: 7
 spot: 陸前高田2（川原川公園，市街地）
 author: 小西
+attribute: Doctoral Program, 1st Year
 permalink: /notes/rikuzentakata-kawaragawa-konishi-pre/
 last_updated: '2026-04-29'
 discussion_points:

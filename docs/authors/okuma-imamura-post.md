@@ -4,6 +4,7 @@ title: 大熊町｜Keita Imamura
 spot_id: 1
 spot: 大熊町
 author: Keita Imamura
+attribute: Doctoral Program, 1st Year
 permalink: /notes/okuma-imamura-post/
 last_updated: '2026-04-29'
 discussion_points:

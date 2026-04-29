@@ -4,6 +4,7 @@ title: 田老｜李
 spot_id: 11
 spot: 田老
 author: 李
+attribute: Doctoral Program, 1st Year
 permalink: /notes/taro-li-pre/
 last_updated: '2026-04-29'
 discussion_points:

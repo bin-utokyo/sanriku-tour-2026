@@ -4,6 +4,7 @@ title: 気仙沼市街｜Daichi Ogawa
 spot_id: 5
 spot: 気仙沼市街
 author: Daichi Ogawa
+attribute: Doctoral Program, 1st Year
 permalink: /notes/kesennuma-ogawa-post/
 last_updated: '2026-04-29'
 discussion_points:

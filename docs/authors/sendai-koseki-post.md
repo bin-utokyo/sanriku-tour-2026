@@ -4,6 +4,7 @@ title: 仙台市｜Rena Koseki
 spot_id: 3
 spot: 仙台市
 author: Rena Koseki
+attribute: Doctoral Program, 1st Year
 permalink: /notes/sendai-koseki-post/
 last_updated: '2026-04-29'
 discussion_points:

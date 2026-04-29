@@ -4,6 +4,7 @@ title: 気仙沼市街｜鷲野
 spot_id: 5
 spot: 気仙沼市街
 author: 鷲野
+attribute: Doctoral Program, 1st Year
 permalink: /notes/kesennuma-washino-pre/
 last_updated: '2026-04-29'
 discussion_points:

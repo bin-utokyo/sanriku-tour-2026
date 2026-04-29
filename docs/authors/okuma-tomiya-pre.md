@@ -4,6 +4,7 @@ title: 大熊町｜冨矢
 spot_id: 1
 spot: 大熊町
 author: 冨矢
+attribute: Doctoral Program, 1st Year
 permalink: /notes/okuma-tomiya-pre/
 last_updated: '2026-04-29'
 discussion_points:

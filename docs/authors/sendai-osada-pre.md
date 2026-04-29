@@ -4,6 +4,7 @@ title: 仙台市｜長田
 spot_id: 3
 spot: 仙台市
 author: 長田
+attribute: Doctoral Program, 1st Year
 permalink: /notes/sendai-osada-pre/
 last_updated: '2026-04-29'
 discussion_points:

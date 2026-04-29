@@ -4,6 +4,7 @@ title: 浪江町｜Kasun Thalgaskotuwa
 spot_id: 2
 spot: 浪江町
 author: Kasun Thalgaskotuwa
+attribute: Doctoral Program, 1st Year
 permalink: /notes/namie-kasun-post/
 last_updated: '2026-04-29'
 discussion_points:

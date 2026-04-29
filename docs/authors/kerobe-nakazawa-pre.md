@@ -4,6 +4,7 @@ title: 花露辺｜中澤
 spot_id: 9
 spot: 花露辺
 author: 中澤
+attribute: Doctoral Program, 1st Year
 permalink: /notes/kerobe-nakazawa-pre/
 last_updated: '2026-04-29'
 discussion_points:

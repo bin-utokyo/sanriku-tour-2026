@@ -4,6 +4,7 @@ title: 浪江町｜饗場
 spot_id: 2
 spot: 浪江町
 author: 饗場
+attribute: Doctoral Program, 1st Year
 permalink: /notes/namie-aiba-pre/
 last_updated: '2026-04-29'
 discussion_points:
