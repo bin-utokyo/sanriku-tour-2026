@@ -497,26 +497,36 @@ select {
 
 .visit-card__links a {
   display: grid;
-  gap: 2px;
-  padding: 14px;
+  gap: 3px;
+  padding: 0 0 10px;
   color: var(--text);
-  background: var(--soft);
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
   text-decoration: none;
 }
 
-.visit-card__links a:hover {
-  border-color: var(--accent-2);
+.visit-card__links a:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
-.visit-card__links span {
+.visit-card__links a:hover {
+  color: var(--accent-2);
+}
+
+.visit-card__meta-row {
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.92rem;
+}
+
+.visit-card__meta-label {
+  color: var(--text);
   font-weight: 800;
 }
 
 .visit-card__links strong {
+  color: var(--text);
   font-size: 1.05rem;
 }
 

@@ -14,7 +14,6 @@ docs/
   _layouts/default.html    # Shared layout
   _layouts/author.html     # Destination page layout
   assets/css/site.css      # Design
-  assets/images/logo.ai    # Original logo
   assets/images/logo.png   # Web logo
   assets/images/materials/ # Gallery images for the top page
   authors/*.md             # Destination page body content

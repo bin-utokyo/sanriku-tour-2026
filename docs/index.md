@@ -115,8 +115,12 @@ title: Home
       </div>
       <div class="visit-card__links" aria-label="Field notes for {{ item.spot | escape }}">
         {% for subpage in item.subpages %}
-        <a href="{{ subpage.url | relative_url | escape }}" aria-label="{{ item.spot | escape }} field note by {{ subpage.author | escape }}">
-          <strong>{{ subpage.author | escape }}</strong>
+        {% assign subpage_year = subpage.year | default: subpage.grade %}
+        <a href="{{ subpage.url | relative_url | escape }}" aria-label="{{ item.spot | escape }} field note by {{ subpage.author | escape }}{% if subpage_year %}, {{ subpage_year | escape }}{% endif %}">
+          <span class="visit-card__meta-row"><span class="visit-card__meta-label">Author:</span> <strong>{{ subpage.author | escape }}</strong></span>
+          {% if subpage_year %}
+          <span class="visit-card__meta-row"><span class="visit-card__meta-label">Year:</span> {{ subpage_year | escape }}</span>
+          {% endif %}
         </a>
         {% endfor %}
       </div>
