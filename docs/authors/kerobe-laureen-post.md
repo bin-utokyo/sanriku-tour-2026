@@ -8,7 +8,9 @@ attribute: Doctoral Program, 1st Year
 permalink: /notes/kerobe-laureen-post/
 last_updated: '2026-04-29'
 discussion_points:
-- この地域の復興過程における特徴
+- How did local memory, evacuation drills, and community ties reduce casualties?
+- Why did Kerobe choose recovery without a seawall, and how did that protect fishing livelihoods and sea visibility?
+- How did resident-led decision-making work with public agencies and contractors during reconstruction?
 ---
 
 ## 1. Overview of the Area

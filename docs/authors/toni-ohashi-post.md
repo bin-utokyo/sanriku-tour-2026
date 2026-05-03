@@ -8,8 +8,9 @@ attribute: Research Fellow
 permalink: /notes/toni-ohashi-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 既往津波への対応や地形的特徴が生んだ集落ごとの計画上の違い
-- 唐丹小中学校の建築上の特徴
+- How does Toni Elementary and Junior High School integrate school functions, evacuation, and community use?
+- How does the terraced layout use the slope so everyday circulation can become evacuation movement?
+- What can reconstruction facilities learn from connecting architecture, topography, community life, and disaster prevention?
 ---
 
 ## 1. Overview of Visited Sites

@@ -2,34 +2,33 @@
   spot: Okuma Town
   slug: okuma
   image: /assets/images/authors/okuma-imamura-post/01.jpg
-  summary: "Field note on Okuma Town's reconstruction base, phased recovery, return migration, mobility in low-density areas, and disaster public housing."
+  summary: "Field note on Okuma Town's reconstruction base, phased recovery, everyday recovery facilities, and disaster public housing."
   subpages:
   - author: Keita Imamura
     attribute: Doctoral Program, 1st Year
     slug: okuma-imamura-post
     url: /notes/okuma-imamura-post/
   discussion_points:
-  - What role does the Okawara District serve as a reconstruction base?
-  - What outcomes have phased recovery and base development produced?
-  - How should we understand long-term evacuation and return, and the relationship between returnees and newcomers?
-  - How should mobility be designed in low-density areas?
-  - What design features characterize the disaster public housing?
+  - How does the Okawara Reconstruction District serve as a core for rebuilding daily life through town hall, commerce, housing, and education?
+  - What effects have phased lifting of evacuation orders and hub development had on return and everyday recovery?
+  - How should Okuma balance local loss, such as accepting the Interim Storage Facility, with Fukushima's broader recovery?
+  - How do Okumart, disaster public housing, and Manabiya Yume no Mori support daily life, exchange, and child-rearing?
 - id: 2
   spot: Namie Town
   slug: namie
   image: /assets/images/authors/namie-kasun-post/01.jpeg
-  summary: "Field note on Namie Station area reconstruction, phased recovery, long-term evacuation and return, mobility, F-REI, and creative reconstruction."
+  summary: "Field note on Namie's hub-based reconstruction, Michi-no-Eki area, low-density urban structure, smart mobility, F-REI, and memory preservation."
   subpages:
   - author: Kasun Thalgaskotuwa
     attribute: PhD Candidate
     slug: namie-kasun-post
     url: /notes/namie-kasun-post/
   discussion_points:
-  - What role does the area around Namie Station serve as a reconstruction base?
-  - What outcomes have phased recovery and base development produced?
-  - How should we understand long-term evacuation and return, and the relationship between returnees and newcomers?
-  - How should mobility be designed in low-density areas?
-  - What are F-REI and creative reconstruction?
+  - What role does the Michi-no-Eki Namie area serve as a hub for commerce, exchange, and visitors?
+  - What effects have phased recovery and hub-based development produced in a low-density town with many vacant plots?
+  - How can Design Center Namie and private-sector partnerships implement smart mobility?
+  - What do F-REI and creative reconstruction mean for Namie's future?
+  - How does preserving Ukedo Elementary School connect memory transmission with physical reconstruction?
 - id: 3
   spot: Sendai City
   slug: sendai
@@ -40,9 +39,9 @@
     slug: sendai-koseki-post
     url: /notes/sendai-koseki-post/
   discussion_points:
-  - How was Sendai City affected, and how did the Sendai Tobu Road function during the disaster?
-  - What tsunami countermeasures are needed for Sendai's low-lying coastal areas?
-  - How does Tohoku's largest city serve in receiving evacuees from coastal disaster-affected municipalities?
+  - How was coastal Sendai affected, and how did the Sendai-Tobu Expressway function as both a barrier and evacuation site?
+  - How did resident requests and pre-disaster discussions shape the expressway's role in emergency evacuation?
+  - How does Sendai's post-disaster multi-layered defense combine coastal levees, forests, elevated roads, and evacuation facilities?
 - id: 4
   spot: Okawa Elementary School
   slug: okawa
@@ -53,35 +52,37 @@
     slug: okawa-huang-post
     url: /notes/okawa-huang-post/
   discussion_points:
-  - Why might people fail to evacuate even when there appears to be enough time? Consider psychological biases during disasters.
-  - How should painful disaster memories be passed down and narrated?
+  - Why was evacuation delayed at Okawa Elementary School despite the roughly 50 minutes before the tsunami arrived?
+  - How should site-specific risks such as river backflow, bridge effects, and local topography be reflected in disaster plans?
+  - How can painful memories be transmitted through the preserved ruins without reducing the event to a simple failure narrative?
 - id: 5
   spot: Kesennuma City Center
   slug: kesennuma
   image: /assets/images/authors/kesennuma-ogawa-post/01.jpg
-  summary: "Field note on Kesennuma's waterfront reconstruction, fisheries infrastructure, coastal land use, seawalls, and post-disaster urban planning."
+  summary: "Field note on Kesennuma's waterfront reconstruction, fisheries infrastructure, coastal land use, seawall design, and port-facing recovery hubs."
   subpages:
   - author: Daichi Ogawa
     attribute: PhD Candidate
     slug: kesennuma-ogawa-post
     url: /notes/kesennuma-ogawa-post/
   discussion_points:
-  - Relationship between pre-disaster infrastructure development, urban growth, and damage
-  - Design characteristics of reconstruction plans and waterfront reconstruction bases
+  - How does Kesennuma's recovery land use differentiate fisheries, tourism, and commerce along the bay?
+  - How are seawalls, floodgates, and flap gates selected according to district character?
+  - How do port-facing recovery hubs balance production, views, staying spaces, and pedestrian circulation?
 - id: 6
   spot: Rikuzentakata 1 (Memorial Park)
   slug: rikuzentakata-memorial
   image: /assets/images/materials/rikuzentakata.jpg
-  summary: "Field note on Rikuzentakata Memorial Park, tsunami hazard zoning, relocation to higher ground, land-use planning, and spaces for mourning."
+  summary: "Field note on Rikuzentakata Memorial Park as a place of memory, education, reconstruction, high-ground relocation, and disaster remains."
   subpages:
   - author: Jingran Su
     attribute: PhD Candidate
     slug: rikuzentakata-memorial-su-post
     url: /notes/rikuzentakata-memorial-su-post/
   discussion_points:
-  - Relationship between pre-disaster infrastructure development, urban growth, and damage
-  - Disaster hazard zoning, relocation to higher ground, and land-use planning for expected inundation areas
-  - Design of spaces for mourning
+  - What role does the memorial park play as a public space connecting memory, education, and reconstruction?
+  - What does it mean to use low-lying land for remembrance and transmission while relocating residential areas to higher ground?
+  - How do the Miracle Pine and disaster remains physically and spatially transmit tsunami memory?
 - id: 7
   spot: Rikuzentakata 2 (Kawaragawa Park and City Center)
   slug: rikuzentakata-kawaragawa
@@ -94,30 +95,35 @@
   discussion_points:
   - Tsunami countermeasures and reconstruction planning in low-lying Rikuzentakata
   - Design around the Kawaragawa River and connections from raised ground
+  - How does Kawaragawa Park preserve memories of the former town while creating a usable public space?
+  - How are flood control, ecological consideration, waterfront access, and urban design integrated?
 - id: 8
   spot: Toni District (Hongo, Kojirahama, Toni Elementary and Junior High School)
   slug: toni
   image: /assets/images/authors/toni-ohashi-post/01.jpeg
-  summary: "Field note on Toni District's settlement planning after repeated tsunamis and the architecture of Toni Elementary and Junior High School."
+  summary: "Field note on Toni Elementary and Junior High School as an integrated school, evacuation base, community facility, and reconstruction architecture."
   subpages:
   - author: Nobumasa Ohashi
     attribute: Research Fellow
     slug: toni-ohashi-post
     url: /notes/toni-ohashi-post/
   discussion_points:
-  - Planning differences among settlements shaped by previous tsunami responses and topography
-  - Architectural characteristics of Toni Elementary and Junior High School
+  - How does Toni Elementary and Junior High School integrate school functions, evacuation, and community use?
+  - How does the terraced layout use the slope so everyday circulation can become evacuation movement?
+  - What can reconstruction facilities learn from connecting architecture, topography, community life, and disaster prevention?
 - id: 9
   spot: Kerobe
   slug: kerobe
-  summary: "Field note on Kerobe's local recovery process after the Great East Japan Earthquake and tsunami."
+  summary: "Field note on Kerobe's community-led recovery process, evacuation preparedness, rejection of a seawall, and land use tied to fishing livelihoods."
   subpages:
   - author: Laureen Attolou
     attribute: Doctoral Program, 1st Year
     slug: kerobe-laureen-post
     url: /notes/kerobe-laureen-post/
   discussion_points:
-  - Characteristics of the recovery process in this area
+  - How did local memory, evacuation drills, and community ties reduce casualties?
+  - Why did Kerobe choose recovery without a seawall, and how did that protect fishing livelihoods and sea visibility?
+  - How did resident-led decision-making work with public agencies and contractors during reconstruction?
 - id: 10
   spot: Kamaishi
   slug: kamaishi
@@ -128,7 +134,9 @@
     slug: kamaishi-nagai-post
     url: /notes/kamaishi-nagai-post/
   discussion_points:
-  - Kamaishi's reconstruction plans and design approaches in reconstruction public housing
+  - How did Kamaishi shift from relying only on hard infrastructure toward broader disaster resilience?
+  - How do the corridors and building arrangement of Tenjin Reconstruction Housing create distance and interaction?
+  - What are the possibilities and limits of using architectural design to foster community in disaster public housing?
 - id: 11
   spot: Taro
   slug: taro
@@ -142,3 +150,6 @@
   discussion_points:
   - Pre-disaster tsunami countermeasures, both structural and non-structural
   - Did those measures protect lives? Lessons learned afterward
+  - How did post-disaster reconstruction combine hazard zoning, relocation, roads, and evacuation into multilayered defense?
+  - How can disaster-affected land support solar power, storage batteries, and local energy resilience?
+  - What are the viability challenges and risks of a municipal Stadtwerke model and distributed energy systems?

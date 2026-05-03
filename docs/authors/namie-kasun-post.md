@@ -8,11 +8,11 @@ attribute: Doctoral Program, 1st Year
 permalink: /notes/namie-kasun-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 浪江駅周辺は，どのような役割を持った拠点か
-- 段階的な復興や拠点整備がどのような結果をもたらしたか
-- 長期避難と帰還，帰還者と移住者の関係をどう捉えるか
-- 低密度地域におけるモビリティをどう設計するか
-- F-REI，創造的復興とは何か
+- What role does the Michi-no-Eki Namie area serve as a hub for commerce, exchange, and visitors?
+- What effects have phased recovery and hub-based development produced in a low-density town with many vacant plots?
+- How can Design Center Namie and private-sector partnerships implement smart mobility?
+- What do F-REI and creative reconstruction mean for Namie's future?
+- How does preserving Ukedo Elementary School connect memory transmission with physical reconstruction?
 ---
 
 ![浪江町周辺の復興景観]({{ '/assets/images/authors/namie-kasun-post/01.jpeg' | relative_url }})

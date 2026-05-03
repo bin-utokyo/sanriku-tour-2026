@@ -8,18 +8,18 @@ attribute: Doctoral Program, 1st Year
 permalink: /notes/rikuzentakata-memorial-su-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 災害前までのインフラ整備と，都市の発展，被害の関係性
-- 災害危険区域の設定と高台移転，浸水予想エリアの土地利用計画
-- 祈りの空間のデザイン
+- What role does the memorial park play as a public space connecting memory, education, and reconstruction?
+- What does it mean to use low-lying land for remembrance and transmission while relocating residential areas to higher ground?
+- How do the Miracle Pine and disaster remains physically and spatially transmit tsunami memory?
 ---
 
 ## Theme
 
-Understanding the Fukushima area after the Great East Japan Earthquake and tsunami of March 11, 2011, and learning what reconstruction means for people, history, and civil engineering.
+Understanding the Rikuzentakata area after the Great East Japan Earthquake and tsunami of March 11, 2011, and learning what reconstruction means for people, history, and civil engineering.
 
 ## 1. General Feeling and Experience of the Whole Tour
 
-This Fukushima tour was a meaningful chance to understand the affected area after the Great East Japan Earthquake and tsunami of March 11, 2011. Before joining the tour, I mostly knew the disaster through news reports, classroom explanations, and historical materials. However, visiting the area made it much more real. I felt that a disaster is not only a past event, because its influence remains in the landscape, in local memories, and in the long process of reconstruction.
+This Rikuzentakata visit was a meaningful chance to understand the affected area after the Great East Japan Earthquake and tsunami of March 11, 2011. Before joining the tour, I mostly knew the disaster through news reports, classroom explanations, and historical materials. However, visiting the area made it much more real. I felt that a disaster is not only a past event, because its influence remains in the landscape, in local memories, and in the long process of reconstruction.
 
 My overall feeling during the tour was a mixture of sadness, respect, and responsibility. I felt sadness because so many lives were changed in a very short time, and respect because local people and communities have continued moving forward even after such severe loss. At the same time, I felt responsibility, because this tour was not only about remembering the past. It was also about learning how we should protect people better in the future.
 

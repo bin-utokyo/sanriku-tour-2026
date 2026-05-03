@@ -8,7 +8,9 @@ attribute: Research Fellow
 permalink: /notes/kamaishi-nagai-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 市内の復興計画や，復興公営住宅のデザイン上の工夫
+- How did Kamaishi shift from relying only on hard infrastructure toward broader disaster resilience?
+- How do the corridors and building arrangement of Tenjin Reconstruction Housing create distance and interaction?
+- What are the possibilities and limits of using architectural design to foster community in disaster public housing?
 ---
 
 ## 1. About Kamaishi City

@@ -8,11 +8,10 @@ attribute: Doctoral Program, 1st Year
 permalink: /notes/okuma-imamura-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 大川原地区は，どのような役割を持った拠点か
-- 段階的な復興や拠点整備がどのような結果をもたらしたか
-- 長期避難と帰還，帰還者と移住者の関係をどう捉えるか
-- 低密度地域におけるモビリティをどう設計するか
-- 災害公営住宅のデザインの特徴は何か
+- How does the Okawara Reconstruction District serve as a core for rebuilding daily life through town hall, commerce, housing, and education?
+- What effects have phased lifting of evacuation orders and hub development had on return and everyday recovery?
+- How should Okuma balance local loss, such as accepting the Interim Storage Facility, with Fukushima's broader recovery?
+- How do Okumart, disaster public housing, and Manabiya Yume no Mori support daily life, exchange, and child-rearing?
 ---
 
 ## Okuma Reconstruction Report

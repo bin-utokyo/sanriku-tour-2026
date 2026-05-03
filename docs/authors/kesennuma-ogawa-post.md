@@ -8,8 +8,9 @@ attribute: Doctoral Program, 1st Year
 permalink: /notes/kesennuma-ogawa-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 災害前までのインフラ整備と，都市の発展，被害の関係性
-- 復興計画や，港に面する復興拠点の設計上の特徴
+- How does Kesennuma's recovery land use differentiate fisheries, tourism, and commerce along the bay?
+- How are seawalls, floodgates, and flap gates selected according to district character?
+- How do port-facing recovery hubs balance production, views, staying spaces, and pedestrian circulation?
 ---
 
 ## 1. Areas Visited

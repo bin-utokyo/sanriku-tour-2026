@@ -10,6 +10,9 @@ last_updated: '2026-04-29'
 discussion_points:
 - Tsunami countermeasures implemented before the disaster, both structural and non-structural
 - Whether those measures protected lives, and the lessons learned afterward
+- Post-disaster multilayered defense through hazard zoning, relocation, roads, and evacuation
+- Use of disaster-affected land for solar power, storage batteries, and local energy resilience
+- Viability and risks of a municipal Stadtwerke model and distributed energy systems
 ---
 
 ## 1. Overview of Visited Sites

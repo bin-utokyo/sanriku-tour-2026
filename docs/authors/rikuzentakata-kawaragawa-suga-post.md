@@ -10,6 +10,8 @@ last_updated: '2026-04-29'
 discussion_points:
 - Tsunami countermeasures and reconstruction planning in Rikuzentakata, where low-lying land extends across the city
 - Design around the Kawaragawa River and connections from the raised ground
+- How Kawaragawa Park preserves memories of the former town while creating a usable public space
+- Integration of flood control, ecological consideration, waterfront access, and urban design
 ---
 
 ## 1. Overview: Rikuzentakata's Reconstruction and Kawaragawa Park

@@ -8,9 +8,9 @@ attribute: Doctoral Program, 1st Year
 permalink: /notes/sendai-koseki-post/
 last_updated: '2026-04-29'
 discussion_points:
-  - Damage in Sendai City and how the Sendai-Tobu Expressway functioned during the disaster
-  - Future tsunami countermeasures in Sendai City, where low-lying land extends across the coastal area
-  - Reception of evacuees from coastal disaster-affected municipalities and Sendai's role as the largest city in Tohoku
+  - Damage in coastal Sendai and how the Sendai-Tobu Expressway functioned as both a barrier and evacuation site
+  - How resident requests and pre-disaster discussions shaped the expressway's role in emergency evacuation
+  - Post-disaster multi-layered tsunami defense using coastal levees, forests, elevated roads, and evacuation facilities
 ---
 
 ## 1. The Sendai-Tobu Expressway
