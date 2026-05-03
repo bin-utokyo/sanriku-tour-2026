@@ -27,7 +27,7 @@ Based on these experiences, tsunami disaster prevention measures have been advan
 
 <picture>
   <source srcset="{{ '/assets/images/authors/taro-furuhashi-post/01.jpg' | relative_url }}">
-  <img src="../assets/images/authors/taro-furuhashi-post/01.jpg" alt="Seiroku Honda" loading="lazy">
+  <img src="{{ '/assets/images/authors/taro-furuhashi-post/01.jpg' | relative_url }}" alt="Seiroku Honda" loading="lazy">
 </picture>
 
 However, in the 2011 Great East Japan Earthquake, despite the presence of these measures, the tsunami overtopped and destroyed the seawall, causing severe damage to the urban area. In this respect, the Taro district is an important case for considering the limits of disaster prevention facilities when facing disasters that exceed prior assumptions.
@@ -46,7 +46,7 @@ However, the scale of the tsunami greatly exceeded assumptions. The 10.65 m high
 
 <picture>
   <source srcset="{{ '/assets/images/authors/taro-furuhashi-post/03.jpg' | relative_url }}">
-  <img src="../assets/images/authors/taro-furuhashi-post/03.jpg" alt="Taro Kanko Hotel" loading="lazy">
+  <img src="{{ '/assets/images/authors/taro-furuhashi-post/03.jpg' | relative_url }}" alt="Taro Kanko Hotel" loading="lazy">
 </picture>
 
 Compared with past tsunami disasters, the number of dead and missing in the Taro area is said to have been 1,859 in the Meiji Sanriku Tsunami of 1896, 911 in the Showa Sanriku Tsunami of 1933, and 181 in the Great East Japan Earthquake of 2011. These figures show that long-standing disaster prevention measures and evacuation behavior had a certain effect in reducing damage. At the same time, they also made clear the limitation that structures alone cannot completely prevent the largest-class tsunami.
@@ -75,7 +75,7 @@ Behind this initiative is the experience of losing external power supply during 
 
 <picture>
   <source srcset="{{ '/assets/images/authors/taro-furuhashi-post/04.jpg' | relative_url }}">
-  <img src="../assets/images/authors/taro-furuhashi-post/04.jpg" alt="Solar farm" loading="lazy">
+  <img src="{{ '/assets/images/authors/taro-furuhashi-post/04.jpg' | relative_url }}" alt="Solar farm" loading="lazy">
 </picture>
 
 ### 3.3 Miyako City's Stadtwerke Model: A System for Producing Locally and Returning Benefits Locally

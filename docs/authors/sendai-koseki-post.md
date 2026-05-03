@@ -45,5 +45,5 @@ The completed elevated roads are positioned as a key component of a “multi-lay
 ![Tsunami countermeasures in eastern Sendai]({{ '/assets/images/authors/sendai-koseki-post/02.png' | relative_url }})
 *Figure 2: Tsunami countermeasures in eastern Sendai.*
 
-![Elevated road developed after the Great East Japan Earthquake]({{ '/assets/images/authors/sendai-koseki-post/03.png' | relative_url }})
+![Elevated road developed after the Great East Japan Earthquake]({{ '/assets/images/authors/sendai-koseki-post/03.jpg' | relative_url }})
 *Figure 3: Elevated road developed after the Great East Japan Earthquake (photographed by the author in December 2024).*

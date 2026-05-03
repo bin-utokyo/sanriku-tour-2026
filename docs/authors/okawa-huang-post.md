@@ -23,7 +23,7 @@ On March 11, 2011, Okawa Elementary School was struck by the tsunami generated b
 
 The tsunami reached the area not only from the river, but also from the landward side, engulfing the school and its surroundings. 74 students and 10 staff members lost their lives.
 
-![Fig.1]({{ '/assets/images/authors/okawa-huang-post/01.jpg' | relative_url }})
+![Fig.1]({{ '/assets/images/authors/okawa-huang-post/01.png' | relative_url }})
 
 *Figure 1. Location Map of Okawa Elementary School in Ishinomaki City*
 
@@ -33,7 +33,7 @@ Some of the families affected by the loss at Okawa later argued that it should n
 
 In July 2021, Ishinomaki City opened the preserved remains of Okawa Elementary School to the public as a disaster memorial, preserving the memories and lessons of the tragedy and offering visitors an opportunity to reflect on life and on what it means to be alive.
 
-![Fig.2]({{ '/assets/images/authors/okawa-huang-post/02.jpg' | relative_url }})
+![Fig.2]({{ '/assets/images/authors/okawa-huang-post/02.png' | relative_url }})
 
 *Figure 2. Map of the Okawa Elementary School Ruins*
 

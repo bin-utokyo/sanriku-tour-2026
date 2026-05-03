@@ -17,7 +17,7 @@ discussion_points:
 
 Based on the preliminary research conducted by 中澤さん.
 
-![Map of Iwate Prefecture. Kerobe is the coastal city in pink.]({{ '/assets/images/authors/kerobe-laureen-post/01.jpg' | relative_url }})
+![Map of Iwate Prefecture. Kerobe is the coastal city in pink.]({{ '/assets/images/authors/kerobe-laureen-post/01.png' | relative_url }})
 *Figure 1: Map of Iwate Prefecture. Kerobe is the coastal city in pink.*
 
 Kerobe gets its name from the Ainu language, in which “Keroppe” means “gentle village”. It is indeed a peaceful village between the mountain and the sea, where the main activity is fishing. In the south part of Kamaishi city, facing Touni bay, about 220 people in 70 households live in the area, mostly engaging in the culture of sea products such as seaweed, scallops or sea urchins. There is a strong sense of community in the village, with an active neighborhood association.

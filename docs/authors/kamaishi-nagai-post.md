@@ -56,7 +56,7 @@ The housing was designed by architect Manabu Chiba and constructed by Daiwa Hous
 
 Even corridors connecting the same buildings are shifted vertically between floors, allowing natural interplay of sights. At the same time, private spaces are secured in the deeper parts of each unit, maintaining a balance where residents can feel the presence of others without being forced into interaction. This project, along with Omachi Reconstruction Housing No.1 by the same team, received the Good Design Award in 2018.
 
-![Connecting corridors with different circulation layouts on each floor]({{ '/assets/images/authors/kamaishi-nagai-post/02.jpg' | relative_url }})
+![Connecting corridors with different circulation layouts on each floor]({{ '/assets/images/authors/kamaishi-nagai-post/02.png' | relative_url }})
 *Figure 2: Connecting corridors with different circulation layouts on each floor*
 
 ### 2.3 Observations from the Site Visit
@@ -81,7 +81,7 @@ This time, although my visit was brief, I carefully observed various disaster re
 
 At the same time, it is also true that memories fade over time. While the lessons of disaster prevention must not be forgotten, it is not necessarily a negative thing for landscapes with seawalls to become normalized.
 
-![Construction of the new Kamaishi City Hall across from the housing complex]({{ '/assets/images/authors/kamaishi-nagai-post/03.png' | relative_url }})
+![Construction of the new Kamaishi City Hall across from the housing complex]({{ '/assets/images/authors/kamaishi-nagai-post/03.jpg' | relative_url }})
 *Figure 3: Construction of the new Kamaishi City Hall across from the housing complex*
 
 Across from the Tenjin Reconstruction Housing, construction of the new Kamaishi City Hall was underway. Once the new building is completed and more residents begin to visit the area, the atmosphere around the housing complex may also change.
