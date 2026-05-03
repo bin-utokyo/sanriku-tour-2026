@@ -1,120 +1,120 @@
 ---
 layout: author
-title: 田老｜Fumihito Furuhashi
+title: Taro | Fumihito Furuhashi
 spot_id: 11
-spot: 田老
+spot: Taro
 author: Fumihito Furuhashi
 attribute: Doctoral Program, 1st Year
 permalink: /notes/taro-furuhashi-post/
 last_updated: '2026-04-29'
 discussion_points:
-- 震災前までに取られていた津波対策（ハード・ソフト）
-- それによって命は守られたか。その後の教訓
+- Tsunami countermeasures implemented before the disaster, both structural and non-structural
+- Whether those measures protected lives, and the lessons learned afterward
 ---
 
 ## 1. Overview of Visited Sites
 
-## 1. 宮古市田老地区の概要
+## 1. Overview of Miyako City's Taro District
 
-宮古市田老地区は、岩手県の三陸沿岸に位置する地域である。三陸沿岸はリアス式海岸が続く地形であり、津波が湾内で増幅されやすい特徴を持つ。そのため、田老地区は古くから津波常襲地域として知られてきた。
+The Taro district of Miyako City is located on the Sanriku coast of Iwate Prefecture. The Sanriku coast is characterized by a ria coastline, where tsunami waves can easily be amplified inside bays. For this reason, the Taro district has long been known as an area frequently struck by tsunamis.
 
-田老地区では、1896年の明治三陸津波、1933年の昭和三陸津波など、過去に大きな津波被害を繰り返し経験してきた。特に明治三陸津波では、地震の揺れが比較的小さかったにもかかわらず巨大な津波が発生し、住民の避難が遅れたことで甚大な被害が生じた。また、昭和三陸津波でも深夜に発生した地震と津波により、多くの集落が被害を受けた。
+The Taro district has repeatedly experienced major tsunami disasters in the past, including the Meiji Sanriku Tsunami of 1896 and the Showa Sanriku Tsunami of 1933. In particular, during the Meiji Sanriku Tsunami, a massive tsunami occurred despite relatively weak earthquake shaking, and delayed evacuation by residents caused devastating damage. During the Showa Sanriku Tsunami as well, the earthquake and tsunami occurred late at night and damaged many settlements.
 
-こうした経験を踏まえ、田老地区では防潮堤の建設、避難路の整備、防災教育など、長年にわたり津波防災対策が進められてきた。田老の防潮堤の建設には日本公園の父とも呼ばれる本田静六が関わっており、津波の侵入を防ぐための巨大な構造物が整備された。高さ10.65m、総延長2,433mに及ぶ大規模な構造、さらに地域全体を覆う2重構造は、「万里の長城」とも呼ばれた地域の防災能力の高さを象徴する存在であった。
+Based on these experiences, tsunami disaster prevention measures have been advanced in the Taro district over many years, including the construction of seawalls, the development of evacuation routes, and disaster prevention education. Seiroku Honda, who is also called the father of Japanese parks, was involved in the construction of Taro's seawall, and a massive structure was built to prevent tsunami intrusion. With a height of 10.65 m, a total length of 2,433 m, and a double-layered structure covering the entire district, it became a symbol of the area's strong disaster prevention capacity and was even called the "Great Wall of China."
 
 <picture>
   <source srcset="{{ '/assets/images/authors/taro-furuhashi-post/01.jpg' | relative_url }}">
-  <img src="../assets/images/authors/taro-furuhashi-post/01.jpg" alt="本田静六" loading="lazy">
+  <img src="../assets/images/authors/taro-furuhashi-post/01.jpg" alt="Seiroku Honda" loading="lazy">
 </picture>
 
-しかし、2011年の東日本大震災では、これらの対策が存在していたにもかかわらず、津波が防潮堤を越流・破壊し、市街地に大きな被害をもたらした。この点で田老地区は、「防災施設があっても、想定を超える災害に対してどのような限界があるのか」を考えるうえで重要な事例である。
+However, in the 2011 Great East Japan Earthquake, despite the presence of these measures, the tsunami overtopped and destroyed the seawall, causing severe damage to the urban area. In this respect, the Taro district is an important case for considering the limits of disaster prevention facilities when facing disasters that exceed prior assumptions.
 
-## 2. 震災時の状況
+## 2. Conditions During the Disaster
 
-2011年3月11日に発生した東日本大震災では、地震発生から約40分後に田老地区へ津波が到達した。田老地区には大規模な防潮堤や水門、護岸施設が整備されていたが、津波はそれらを越え、市街地をのみ込んだ。
+In the Great East Japan Earthquake that occurred on March 11, 2011, the tsunami reached the Taro district approximately 40 minutes after the earthquake. Although the district had large-scale seawalls, floodgates, and coastal protection facilities, the tsunami overtopped them and engulfed the urban area.
 
-震災前の田老地区では、ハード対策とソフト対策の両面から津波への備えが行われていた。ハード対策としては、防潮堤を中心に、水門や護岸施設を組み合わせた多重的な防御構造が整えられていた。これにより、津波の侵入を抑え、市街地への浸水を防ぐことが期待されていた。
+Before the disaster, the Taro district had prepared for tsunamis through both structural and non-structural measures. Structural measures centered on the seawall and included a multilayered defensive structure combining floodgates and coastal protection facilities. These measures were expected to suppress tsunami intrusion and prevent flooding in the urban area.
 
-一方、ソフト対策としては、防災無線や警報による情報伝達、避難路や高台避難場所の設定、避難訓練、学校教育などが行われていた。また、田老地区の市街地は、海と山の位置関係を把握しやすい道路配置となっており、道路が山側へ向かうように設計されていた。交差点には「隅切り」が設けられ、避難時の見通しや移動のしやすさにも配慮されていた。
+Non-structural measures included information transmission through disaster prevention radio and warnings, the designation of evacuation routes and evacuation sites on high ground, evacuation drills, and school education. The road layout in Taro's urban area also made it easy to understand the relative positions of the sea and the mountains, with roads designed to lead toward the mountain side. Street corners were chamfered to improve visibility and ease of movement during evacuation.
 
-これらの対策は一定の効果を持っていた。防潮堤は津波の到達を遅らせ、避難時間の確保に寄与したと考えられる。また、避難訓練や防災教育の成果により、地震直後に高台へ避難した住民もいた。昭和三陸津波後に整備された避難道路も、実際に避難に利用された。
+These measures had a certain degree of effectiveness. The seawall is thought to have delayed the arrival of the tsunami and contributed to securing time for evacuation. As a result of evacuation drills and disaster prevention education, some residents evacuated to high ground immediately after the earthquake. Evacuation roads developed after the Showa Sanriku Tsunami were also actually used for evacuation.
 
-しかし、津波の規模は想定を大きく上回っていた。高さ10.65mの防潮堤は津波によって越流・破壊され、市街地は広範囲に浸水した。田老地区では181人の死者・行方不明者が発生し、多くの住宅が流失した。震災遺構として保存されている田老観光ホテルは、その津波被害を伝える象徴的な建物となっている。
+However, the scale of the tsunami greatly exceeded assumptions. The 10.65 m high seawall was overtopped and destroyed by the tsunami, and the urban area was widely flooded. In the Taro district, 181 people were killed or went missing, and many houses were washed away. The Taro Kanko Hotel, preserved as an earthquake disaster ruin, has become a symbolic building that conveys the damage caused by the tsunami.
 
 <picture>
   <source srcset="{{ '/assets/images/authors/taro-furuhashi-post/03.jpg' | relative_url }}">
-  <img src="../assets/images/authors/taro-furuhashi-post/03.jpg" alt="田老観光ホテル" loading="lazy">
+  <img src="../assets/images/authors/taro-furuhashi-post/03.jpg" alt="Taro Kanko Hotel" loading="lazy">
 </picture>
 
-過去の津波被害と比較すると、田老地域の死者・行方不明者は、1896年の明治三陸津波で1,859人、1933年の昭和三陸津波で911人、2011年の東日本大震災で181人とされている。この数字から、長年の防災対策や避難行動が被害軽減に一定の効果を持ったことは評価できる。しかし同時に、構造物だけでは最大クラスの津波を完全に防ぐことはできないという限界も明らかになった。
+Compared with past tsunami disasters, the number of dead and missing in the Taro area is said to have been 1,859 in the Meiji Sanriku Tsunami of 1896, 911 in the Showa Sanriku Tsunami of 1933, and 181 in the Great East Japan Earthquake of 2011. These figures show that long-standing disaster prevention measures and evacuation behavior had a certain effect in reducing damage. At the same time, they also made clear the limitation that structures alone cannot completely prevent the largest-class tsunami.
 
-## 3. 震災後の復興
+## 3. Post-Disaster Reconstruction
 
-東日本大震災後の田老地区では、単に被災前の状態へ戻すのではなく、災害リスクを前提に地域の構造を組み替える復興が進められた。その中心にあるのは、津波を完全に防ぐことを目指す発想から、人命を守り、被害を減らし、災害後も地域が機能し続ける仕組みをつくる発想への転換である。
+After the Great East Japan Earthquake, reconstruction in the Taro district did not simply aim to restore the area to its pre-disaster condition. Instead, it proceeded by reorganizing the structure of the district on the premise of disaster risk. At the center of this shift was a change in thinking: from trying to completely prevent tsunamis to creating systems that protect lives, reduce damage, and allow the community to continue functioning after a disaster.
 
-この転換は、防潮堤や高台移転などの防災まちづくりだけでなく、再生可能エネルギーや蓄電池を活用した地域エネルギーシステムにも表れている。田老地区の復興は、防災、脱炭素、地域経済、エネルギー自治を結びつける試みとして理解できる。
+This shift appears not only in disaster prevention town planning, such as seawalls and relocation to higher ground, but also in local energy systems using renewable energy and storage batteries. Reconstruction in the Taro district can be understood as an attempt to connect disaster prevention, decarbonization, the local economy, and energy autonomy.
 
-### 3.1 防潮堤の限界から、多重防御のまちづくりへ
+### 3.1 From the Limits of Seawalls to Multilayered Defensive Town Planning
 
-震災前の田老地区には、巨大な防潮堤を中心としたハード対策と、避難訓練・防災教育・避難路整備などのソフト対策が存在していた。しかし、東日本大震災の津波はそれらの想定を上回った。この経験を踏まえ、震災後の津波対策では、二つのレベルの津波を想定する考え方が重視されるようになった。比較的発生頻度の高い津波に対しては海岸堤防などで人命・財産・経済活動を守る一方、最大クラスの津波に対しては、住民の避難を軸に、ハード・ソフトの施策を組み合わせる方針である。
+Before the disaster, the Taro district had structural measures centered on a massive seawall, as well as non-structural measures such as evacuation drills, disaster prevention education, and evacuation route development. However, the tsunami from the Great East Japan Earthquake exceeded these assumptions. Based on this experience, post-disaster tsunami countermeasures came to emphasize an approach that assumes two levels of tsunamis. For tsunamis with relatively high frequency, coastal levees and other facilities protect lives, property, and economic activity. For the largest-class tsunamis, the policy is to combine structural and non-structural measures, with residents' evacuation at the core.
 
-田老地区の復興まちづくりでも、防潮堤の整備だけでなく、災害危険区域の設定、高台住宅地の整備、市街地の一部嵩上げ、国道45号の嵩上げ地への移設、高台住宅地へ接続する道路整備などが組み合わされた。これは、一つの構造物で津波を止めるのではなく、土地利用、避難、交通インフラ、居住地配置を重層的に組み合わせる多重防御の考え方である。
+In the reconstruction town planning of the Taro district, seawall development was combined with the designation of disaster hazard zones, the development of residential areas on high ground, partial raising of the urban area, relocation of National Route 45 to raised land, and road development connecting to residential areas on high ground. This represents the concept of multilayered defense, combining land use, evacuation, transportation infrastructure, and residential placement in multiple layers rather than trying to stop tsunamis with a single structure.
 
-### 3.2 震災跡地を地域電源へ変える
+### 3.2 Turning Disaster-Affected Land into a Local Power Source
 
-今回、宮古市の方々に案内いただき、田老地区の太陽光発電設備と蓄電池を見学した。特に印象的だったのは、震災跡地を単なる未利用地として残すのではなく、地域のエネルギー供給を支える場所として活用している点である。
+During this visit, we were guided by people from Miyako City and toured the solar power facilities and storage batteries in the Taro district. What was especially striking was that the disaster-affected land was not simply left as unused land, but was instead used as a place supporting the local energy supply.
 
-田老地区では、既設の田老太陽光発電所に加え、2025年12月に夜間連系太陽光発電所が事業を開始した。夜間連系太陽光発電所は、パネル容量2,969kW、蓄電池容量7,987kWh、一般世帯換算623世帯分の規模である。既設の田老太陽光発電所はパネル容量2,356kW、一般世帯換算670世帯分であり、両者を合わせると約1,293世帯分を供給可能である。
+In addition to the existing Taro Solar Power Plant, the nighttime grid-connection solar power plant began operation in December 2025 in the Taro district. The nighttime grid-connection solar power plant has a panel capacity of 2,969 kW and a storage battery capacity of 7,987 kWh, equivalent to 623 ordinary households. The existing Taro Solar Power Plant has a panel capacity of 2,356 kW and is equivalent to 670 ordinary households. Together, the two facilities can supply power equivalent to approximately 1,293 households.
 
-夜間連系型の仕組みは、日中に発電した電力を蓄電池に充電し、夕方から夜間にかけて地域新電力へ売電するものである。これは、系統の空き容量が限られている地域で再生可能エネルギーを活用するための工夫であり、発電設備と蓄電池を組み合わせることで、電力を「つくる」だけでなく、「ためて、時間をずらして使う」仕組みをつくっている。
+The nighttime grid-connection system charges storage batteries with electricity generated during the day and sells that electricity to the local new power company from evening through nighttime. This is a way to use renewable energy in areas where available grid capacity is limited. By combining power generation facilities with storage batteries, the system does not only "generate" electricity; it also creates a mechanism to "store it and shift the timing of use."
 
-この取り組みの背景には、震災時に外部からの電力供給が途絶えた経験がある。災害時に自前で供給可能な電力源が必要だと感じたことが、地域内で再生可能エネルギーを確保する動機になったと理解できる。太陽光発電と蓄電池は、平常時には脱炭素化に貢献し、災害時には地域のレジリエンスを高める可能性を持つ。つまり、田老地区のソーラーファームは環境政策であると同時に、防災政策でもある。
+Behind this initiative is the experience of losing external power supply during the disaster. The realization that locally available power sources are needed during disasters can be understood as a motivation for securing renewable energy within the community. Solar power generation and storage batteries contribute to decarbonization during normal times and have the potential to strengthen local resilience during disasters. In other words, the solar farm in the Taro district is both environmental policy and disaster prevention policy.
 
 <picture>
   <source srcset="{{ '/assets/images/authors/taro-furuhashi-post/04.jpg' | relative_url }}">
-  <img src="../assets/images/authors/taro-furuhashi-post/04.jpg" alt="ソーラーファーム" loading="lazy">
+  <img src="../assets/images/authors/taro-furuhashi-post/04.jpg" alt="Solar farm" loading="lazy">
 </picture>
 
-### 3.3 宮古市版シュタットベルケ――地域でつくり、地域に還す仕組み
+### 3.3 Miyako City's Stadtwerke Model: A System for Producing Locally and Returning Benefits Locally
 
-宮古市の取り組みは、「宮古市版シュタットベルケ」として位置づけられている。シュタットベルケとは、ドイツなどで見られる地域密着型の公共的事業体の仕組みであり、電力、熱、水道、交通などの生活インフラを地域主体で運営する考え方である。
+Miyako City's initiative is positioned as a "Miyako City version of Stadtwerke." Stadtwerke refers to the model of locally rooted public utilities seen in countries such as Germany, based on the idea that daily-life infrastructure such as electricity, heat, water, and transportation is operated by local actors.
 
-宮古市の場合、単に太陽光発電所を設置するだけではない。市が太陽光発電所や地域新電力に出資し、そこから得られる配当や収益を、太陽光パネルや蓄電池の導入支援へ再投資する仕組みを構想している。この点で、宮古市版シュタットベルケは、地域内でエネルギーをつくり、その収益を地域課題の解決に回す循環型の政策である。
+In Miyako City's case, the initiative is not limited to installing solar power plants. The city envisions a system in which it invests in solar power plants and local new power companies, then reinvests the dividends and revenues obtained from them into support for introducing solar panels and storage batteries. In this sense, the Miyako City version of Stadtwerke is a circular policy that produces energy within the region and directs the resulting revenue toward solving local issues.
 
-この仕組みには三つの意味がある。第一に、エネルギー自立性の向上である。外部電源に依存しきるのではなく、地域内に一定の発電・蓄電機能を持つことは、災害時の脆弱性を下げる。第二に、脱炭素化への貢献である。再生可能エネルギーを地域で使うことにより、化石燃料への依存を下げることができる。第三に、地域経済循環である。電力料金として域外に流出していた資金の一部を、地域内の設備投資や市民向け支援に戻すことが可能になる。
+This system has three meanings. First, it improves energy self-reliance. Having a certain level of power generation and storage functions within the region, instead of relying entirely on external power sources, reduces vulnerability during disasters. Second, it contributes to decarbonization. Using renewable energy locally can reduce dependence on fossil fuels. Third, it promotes local economic circulation. It becomes possible to return part of the funds that had flowed outside the region as electricity charges to local equipment investment and support for citizens.
 
-### 3.4 事業性の壁
+### 3.4 Barriers to Business Viability
 
-一方で、現地を見学して強く感じたのは、シュタットベルケ型の事業は理念だけでは成立しないということである。筆者自身も簡単な収支計算を行って感じていたが、地域エネルギー事業は収支面で厳しい。発電設備、蓄電池、系統接続、保守管理、資金調達をすべて考慮すると、脱炭素や防災という公益性だけで事業を継続することは難しい。
+At the same time, what I strongly felt during the site visit was that a Stadtwerke-style business cannot be sustained by ideals alone. I had also sensed this through my own simple income and expenditure calculations, but local energy businesses are financially difficult. When power generation facilities, storage batteries, grid connection, maintenance, and financing are all taken into account, it is difficult to continue the business based only on the public benefits of decarbonization and disaster prevention.
 
-宮古市では、この課題に対して、土地利用、補助金、契約形態、地域新電力との関係などを組み合わせながら対応していた。案内で伺った内容では、住宅等の建築が制限される区域を発電用地として活用すること、補助金を利用すること、地元でつながりのある電力公社との契約を工夫することなどにより、事業費を抑えているとのことだった。宮古市の災害危険区域では、第1種区域は予想浸水深が2m以上の地点を含む区域であり、住宅等の建築は禁止されている。 そのような土地を、居住ではなく再エネ設備の用地として活用する点に、復興後の土地利用の現実的な工夫がある。
+Miyako City was addressing this issue by combining land use, subsidies, contract structures, and relationships with the local new power company. From what we heard during the visit, the city is reducing project costs by using areas where construction of houses and similar buildings is restricted as power generation sites, using subsidies, and devising contracts with a locally connected electric power public corporation. In Miyako City's disaster hazard zones, Category 1 zones are areas that include points where the expected inundation depth is 2 m or more, and the construction of houses and similar buildings is prohibited. There is a practical post-reconstruction land-use strategy in using such land not for residence, but as sites for renewable energy facilities.
 
-特に印象に残ったのは、系統接続に関する費用差である。案内では、東北電力と新設契約を結ぶ場合には約2億円かかる一方、既存の電力公社との増設契約であれば約50万円で済んだと説明を受けた。公開資料上の数字として確認したものではないが、仮にこの説明どおりであれば、宮古市の取り組みは単なる理想論ではなく、制度・契約・地域ネットワークを組み合わせて事業を成立させようとする実務的な努力の上に成り立っている。
+What was particularly memorable was the difference in costs related to grid connection. During the visit, we were told that a new contract with Tohoku Electric Power would cost approximately 200 million yen, while an expansion contract with the existing electric power public corporation would cost only about 500,000 yen. I have not confirmed these figures in public materials, but if the explanation is accurate, Miyako City's initiative is not simply an idealistic argument. Rather, it is supported by practical efforts to make the project viable by combining institutions, contracts, and local networks.
 
-ただし、この発電方式にはリスクもある。第一に、収支リスクである。案内では、事業収支が黒字化するまでに約22年かかるとの説明があった。しかし、太陽光パネルや蓄電池の劣化、交換費用、保守管理費用を十分に織り込めば、採算性はさらに厳しくなる可能性がある。第二に、災害リスクである。津波リスクを前提とした土地に設備を置く以上、最大クラスの津波時には浸水リスクを避けられない。浸水時の電気設備の安全停止、漏電防止、復旧手順、保険設計などは、今後も重要な検討課題である。
+However, this power generation method also involves risks. The first is financial risk. During the visit, we were told that it would take about 22 years for the project balance to turn profitable. However, if deterioration of solar panels and storage batteries, replacement costs, and maintenance costs are sufficiently incorporated, profitability may become even more difficult. The second is disaster risk. As long as the equipment is installed on land premised on tsunami risk, inundation risk cannot be avoided during a largest-class tsunami. Safety shutdown of electrical equipment during inundation, prevention of electric leakage, recovery procedures, and insurance design will remain important issues for future consideration.
 
-このように見ると、宮古市版シュタットベルケは、単純に「再エネを導入した成功事例」としてではなく、公益性、採算性、災害リスク、制度制約の間で成立条件を探っている実践として捉えるべきである。
+Seen in this way, the Miyako City version of Stadtwerke should not be understood simply as a "successful example of introducing renewable energy." Rather, it should be viewed as a practice exploring the conditions for viability among public benefit, profitability, disaster risk, and institutional constraints.
 
-### 3.5 V2G・分散型電力グリッドの可能性と課題
+### 3.5 Potential and Challenges of V2G and Distributed Power Grids
 
-今回の見学を通じて、V2Gに対する見方も変わった。これまで、V2Gについては研究テーマとしては理解していたものの、実装のリアリティを十分に実感できていなかった。しかし、宮古市のような自治体スケールで、地域新電力、太陽光発電、蓄電池、公共施設、EVを組み合わせる構想を見ると、V2Gは現時点でも十分に可能性のある領域だと感じた。
+Through this visit, my view of V2G also changed. Until now, I had understood V2G as a research topic, but I had not fully felt the reality of its implementation. However, when I saw the concept of combining a local new power company, solar power generation, storage batteries, public facilities, and EVs at the municipal scale, as in Miyako City, I felt that V2G is already a field with considerable potential.
 
-特に重要なのは、V2Gを単なる技術としてではなく、地域エネルギーシステムの一部として考えることである。EVは移動手段であると同時に、分散型蓄電池でもある。公共施設、公用車、路線バス、事業者の業務用車両、家庭用EVが地域内に分散して存在するなら、それらをどのように充放電制御し、非常時と平常時の双方で価値を出すかが重要になる。
+What is especially important is to consider V2G not merely as a technology, but as part of a local energy system. EVs are both means of transportation and distributed storage batteries. If public facilities, official vehicles, route buses, business vehicles, and household EVs are distributed throughout the region, the key issue becomes how to control their charging and discharging and create value in both emergencies and normal times.
 
-一方で、本当に難しいのは、EVフリートを用いた分散型電力グリッドである。単一自治体内で公共的に調整できる設備であれば、意思決定主体は比較的明確である。しかし、複数の事業者、車両所有者、電力小売、系統運用者、自治体が関わる場合、利害調整は一気に難しくなる。特に、V2Gではビジネスモデルが重要であり、複数事業者間の競争によって、全体最適よりも個別最適が優先される囚人のジレンマが生じうる。
+At the same time, what is truly difficult is a distributed power grid using EV fleets. If the equipment can be publicly coordinated within a single municipality, the decision-making actor is relatively clear. However, when multiple businesses, vehicle owners, electricity retailers, grid operators, and local governments are involved, interest coordination quickly becomes difficult. In particular, business models are important for V2G, and competition among multiple businesses may create a prisoner's dilemma in which individual optimization is prioritized over overall optimization.
 
-宮古市の事例は、分散型エネルギーシステムが机上の構想ではなく、自治体の防災、財政、土地利用、地域経済と結びついた現実の政策課題であることを示していた。
+The case of Miyako City showed that distributed energy systems are not merely concepts on paper, but real policy issues connected to municipal disaster prevention, finance, land use, and the local economy.
 
-## 4. 感想
+## 4. Reflections
 
-田老地区の事例から、防災対策には「備えていれば安全」という単純な考え方では不十分であることが分かる。田老には、巨大な防潮堤、避難路、防災教育、避難訓練など、他地域と比べても充実した対策が存在していた。それでも、東日本大震災の津波はそれらを上回り、大きな被害をもたらした。
+The case of the Taro district shows that the simple idea that "preparation means safety" is insufficient for disaster prevention. Taro had a massive seawall, evacuation routes, disaster prevention education, evacuation drills, and other measures that were substantial even compared with other regions. Even so, the tsunami from the Great East Japan Earthquake exceeded them and caused severe damage.
 
-このことから、構造物に依存しすぎる防災には限界があると感じた。防潮堤は不要だったということではない。実際に、防潮堤は津波の勢いを弱め、避難のための時間を稼ぐ役割を持っていた。しかし、防潮堤があるから避難しなくてもよいという意識が生まれれば、かえって危険である。最終的に命を守るのは、迅速な避難行動であり、その行動を支える教育、訓練、道路、情報伝達である。
+From this, I felt that disaster prevention that depends too heavily on structures has limits. This does not mean that the seawall was unnecessary. In fact, the seawall had the role of weakening the force of the tsunami and buying time for evacuation. However, if the presence of a seawall creates the mindset that evacuation is unnecessary, it becomes dangerous instead. Ultimately, what protects lives is prompt evacuation behavior, and what supports that behavior is education, drills, roads, and information transmission.
 
-また、震災後の田老地区の復興からは、災害後のまちづくりが単なる復旧ではなく、地域のあり方を見直す機会にもなることを学んだ。高台移転、多重防御、災害危険区域の設定、震災跡地の活用は、過去と同じ場所に同じ形で戻るのではなく、将来のリスクを前提に地域を再構成する取り組みである。
+The reconstruction of the Taro district after the disaster also taught me that post-disaster town planning is not merely restoration, but can also be an opportunity to reconsider the nature of the community. Relocation to higher ground, multilayered defense, designation of disaster hazard zones, and use of disaster-affected land are efforts to reconstruct the region based on future risks rather than returning to the same places in the same form as before.
 
-特に印象的だったのは、太陽光発電と蓄電池を活用した宮古市版シュタットベルケである。これは、脱炭素政策であると同時に、防災政策であり、地域経済政策でもある。震災時に電力が途絶えた経験から、地域内で一定の電力を確保する必要性が認識され、それが太陽光発電、蓄電池、地域新電力、市民向け支援へとつながっている。
+What was especially impressive was Miyako City's version of Stadtwerke, which uses solar power generation and storage batteries. This is decarbonization policy, but at the same time it is also disaster prevention policy and local economic policy. From the experience of losing power during the disaster, the need to secure a certain amount of power within the region was recognized, and this has led to solar power generation, storage batteries, a local new power company, and support for citizens.
 
-一方で、現地で話を伺うほど、この取り組みが簡単な成功事例ではないことも分かった。収支が黒字化するまでに長い時間がかかり、設備の劣化や交換費用を含めれば採算性はさらに厳しくなる。さらに、津波リスクのある土地に電気設備を置く以上、災害時の安全性にも課題が残る。それでも、宮古市は補助金、土地利用、契約形態、地域新電力との関係を組み合わせながら、事業を成立させようとしている。この点に、自治体の意思決定と地域経営の難しさが表れている。
+On the other hand, the more we heard on site, the more I understood that this initiative is not a simple success story. It takes a long time for the balance to turn profitable, and if equipment deterioration and replacement costs are included, profitability becomes even more difficult. Furthermore, as long as electrical equipment is placed on land with tsunami risk, safety during disasters remains an issue. Even so, Miyako City is trying to make the project viable by combining subsidies, land use, contract structures, and relationships with the local new power company. This point reveals the difficulty of municipal decision-making and local management.
 
-田老地区の経験は、防災、エネルギー、地域経済を切り離して考えることの限界を示している。これからの地域防災では、津波を完全に防ぐことだけを目指すのではなく、被害を減らし、命を守り、災害後も地域が機能し続ける仕組みをつくることが重要である。宮古市の取り組みは、そのための一つの実践であり、V2Gや分散型電力グリッドを研究するうえでも重要な示唆を与えてくれた。
+The experience of the Taro district shows the limits of thinking about disaster prevention, energy, and the local economy separately. In future local disaster prevention, it will be important not only to aim to completely prevent tsunamis, but also to create systems that reduce damage, protect lives, and allow communities to continue functioning after disasters. Miyako City's initiative is one such practice, and it also provided important implications for research on V2G and distributed power grids.

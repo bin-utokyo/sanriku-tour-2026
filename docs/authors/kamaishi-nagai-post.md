@@ -43,7 +43,7 @@ In Kamaishi City, a total of 1,316 units were developed across 22 districts, and
 
 Tenjin Reconstruction Housing is located on the northern side of the central area of Kamaishi City and consists of 53 units.
 
-![Exterior view and second-floor plan of Tenjin Reconstruction Housing]({{ '/assets/images/authors/kamaishi-nagai-post/01.jpg' | relative_url }})
+![Exterior view and second-floor plan of Tenjin Reconstruction Housing]({{ '/assets/images/authors/kamaishi-nagai-post/01.png' | relative_url }})
 *Figure 1: Exterior view and second-floor plan of Tenjin Reconstruction Housing [1]*
 
 ### 2.2 Design
@@ -79,7 +79,7 @@ This time, although my visit was brief, I carefully observed various disaster re
 
 At the same time, it is also true that memories fade over time. While the lessons of disaster prevention must not be forgotten, it is not necessarily a negative thing for landscapes with seawalls to become normalized.
 
-![Construction of the new Kamaishi City Hall across from the housing complex]({{ '/assets/images/authors/kamaishi-nagai-post/03.jpg' | relative_url }})
+![Construction of the new Kamaishi City Hall across from the housing complex]({{ '/assets/images/authors/kamaishi-nagai-post/03.png' | relative_url }})
 *Figure 3: Construction of the new Kamaishi City Hall across from the housing complex*
 
 Across from the Tenjin Reconstruction Housing, construction of the new Kamaishi City Hall was underway. Once the new building is completed and more residents begin to visit the area, the atmosphere around the housing complex may also change.
